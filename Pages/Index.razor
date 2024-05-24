@@ -1,0 +1,80 @@
+﻿@* This is razor component *@
+
+
+
+@* @page directives for declaring the URLs for which this Razor Component will be displayed *@
+@* More than one route can be defined for a component *@
+@page "/"
+@page "/a"
+@page "/b"
+@page "/c"
+
+@* PageTitle blazor component to set the page title for this page as “Hello Blazor” *@
+@* Recall we have “HeadOutlet” component on the _Host.cshtml. *@
+@* <component type="typeof(HeadOutlet)" render-mode="ServerPrerendered" /> *@
+@* So whatever PageTitle components is addded as html title for the page by the HeadOutlet component. *@
+<PageTitle>Hello Blazor</PageTitle>
+
+<h1 class="bg-info text-white">Hello</h1>
+<p>Welcome to your new app.</p>
+
+<table class="table table-sm table-bordered">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>City</th>
+        </tr>
+    </thead>
+
+
+    <tbody>
+        @foreach (People p in peopleList)
+        {
+            <tr>
+                <td class=@GetCSS(p.City)>@p.Name</td>
+                <td class=@GetCSS(p.City)>@p.City</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+<div class="form-group">
+    <label for="city">City</label>
+    <select name="city" class="form-control" @bind="SelectedCity">
+        <option disabled selected>Select City</option>
+        @foreach (string city in Cities)
+        {
+            <option value="@city" selected="@(city == SelectedCity)">
+                @city
+            </option>
+        }
+    </select>
+</div>
+
+@code {
+    public class People
+    {
+        public string Name { get; set; }
+        public string City { get; set; }
+    }
+
+    public IEnumerable<People> peopleList => new List<People> {
+                new People { Name = "Jack Sparrow", City = "New York" },
+                new People { Name = "Bruce Wayne", City = "Gotham" },
+                new People { Name = "Clark Kent", City = "Metropolis" },
+                new People { Name = "Donald Trump", City = "New York" },
+                new People { Name = "Vladimir Putin", City = "Moscow" },
+                new People { Name = "Chipper Jones", City = "Beijing" },
+                new People { Name = "Cristiano Ronaldo", City = "Funchal" }
+            };
+
+    public IEnumerable<string> Cities => peopleList.Select(l => l.City).Distinct();
+
+    public string SelectedCity { get; set; }
+    public string GetCSS(string city) 
+    {
+        return SelectedCity == city ? "bg-info text-white" : "";
+    }
+
+}

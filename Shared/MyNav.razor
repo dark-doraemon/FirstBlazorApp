@@ -1,0 +1,111 @@
+﻿@* -------------------------------------
+
+EXPLAINATION about NavLink - this is a buil-in component
+
+------------------------------------- *@
+
+
+@*  NavLink is an in-built Blazor Component and is used for creating anchor tags for navigation. 
+ The NavLink component has added advantage over normal anchor tag as it toggles an “active” CSS class based on
+ whether it’s href matches the current URL in the browser. 
+ With this, you can assign a color to this active class and app users will know which URL they are currently in. *@
+@* Nghĩa là nếu sử dụng NavLink component thì nó tự biến thành thẻ a (cái này bình thường không có gì, các front-end framework khác cũng vậy)
+nhưng nó sẽ tự động thêm class có tên là active dù ta không có class active, và ta có thể css class này để ngưởi dùng biết rằng mình đang ở link này *@
+
+
+@*  For example, by adding the following NavLink Component on a Razor Component:
+<NavLink href="/City">City</NavLink> *@
+@* The following anchor tag is formed:
+<a href="https://localhost:44366/City">City</a> *@
+
+@* If the user visits the City URL then NavLink performs the match and this anchor tag will be applied with an active CSS class, i.e. it becomes:
+<a class="active" href="https://localhost:44366/City">City</a> *@
+@* You can provide some color (like red) to this css and user will see a red color link when he/she is on the same page which the link’s href targets.
+
+.active {
+    color: red;
+} *@
+
+
+@* REAL EXAMPLE *@
+<style>
+    .active {
+        color: red;
+    }
+</style>
+
+
+<div class="p-3 mb-2 bg-warning text-dark">
+    <h3 class="bg-info text-white">Links</h3>
+    <ul class="nav flex-column">
+        <li class="nav-item px-3">
+
+            @* link to Index component or without nay component *@
+            <NavLink href="/" Match="NavLinkMatch.All"> @* The NavLink is active when the entire current URL matches *@
+                Index
+            </NavLink>
+        </li>
+
+
+        @* The other NavLinks do not have a "Match"" attribute so the default one – NavLinkMatch.Prefix will automatically be used. *@
+        <li class="nav-item px-3">
+            @* link to City component *@
+            <NavLink href="/City">
+                City
+            </NavLink>
+        </li>
+
+        <li class="nav-item px-3">
+            @* link to Country component *@
+            <NavLink href="/Country">
+                Country
+            </NavLink>
+        </li>
+        <li class="nav-item px-3">
+            @* link to Continent component *@
+            <NavLink href="/Continent">
+                Continent
+            </NavLink>
+        </li>
+
+        <button class="btn btn-primary" @onclick="NavigateUser">Country</button>
+    </ul>
+</div>
+
+@* NavigationManager class
+When you have to create navigation links programmatically i.e. in Blazor events, properties or inside C# code block 
+then use the Blazor NavigationManager class. 
+The NavigationManager class provides programmatic access to navigation and is provided as a service from Dependency Injection feature. 
+It is received by Razor Components using the [Inject] attribute. *@
+@* nghĩa là nếu ta muốn lập trình bằng code c# để ngưởi dùng navigate đến trang khác thì sử dụng class NavigationManager *@
+
+@* VD:
+như code ở dòng 71 thay vì để thẻ a và để đường link vào trực tiếp ta sử dụng button và @onclick="NavigateUser"
+trong hàm NavigateUser sẽ xử lí logic gì đó và nó sử dụng clas NavigationManager thì mới di chuyển sang URL khác được *@
+
+
+@code {
+
+    [Inject]
+    public NavigationManager NM { get; set; }
+
+    public void NavigateUser() 
+    {
+        NM.NavigateTo("/Country");
+    }
+}
+
+@* Some useful NavigationManager Members *@
+@* Uri : This property returns the current URL. *@
+
+@* LocationChanged : This is an event which is fired when the location changes.  *@
+
+@* NavigateTo()
+This method navigates to a specific URL. 
+It can accept 2 parameters – first is the navigate URL while the second is a bool type parameter. 
+When you pass true then browser will be forced to load a new page (go to URL and F5). 
+Otherwise false is the default value where navigation Is performed without sending a new HTTP request. *@
+
+@* ToAbsoluteUri : This method Converts a relative URI into an absolute URI. *@
+
+@* ToBaseRelativePath : This method returns a relative URL of the URL that is passed to it. *@

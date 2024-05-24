@@ -1,0 +1,24 @@
+﻿@* This is razor component *@
+
+@* Blazor uses ASP.NET Core Routing system for selecting component based on URLs. *@
+
+
+@* Router, Found, NotFound, RouteView etc are all Blazor in-built components *@
+@* we need to specify the name of the .NET AppAssembly to use which in most cases is the current assembly("App" because this file names App.razor): *@
+<Router AppAssembly="@typeof(App).Assembly">
+    @* In the Found section provide the contents to display when the match to the requested route (i.e. URL) is found *@
+    @* nghĩa là nếu any component có URL giống với URL được request thì component đó sẽ render, ngược lại nó sẽ render Not Found *@
+    @* và nó sẽ lấy nội dụng của component đó render trong MainLayout *@
+    <Found Context="routeData">
+        @* The RouteView shows the matching component’s contents (routeData) inside the layout (UI)(MainLayout). *@
+        <RouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)" />
+        <FocusOnNavigate RouteData="@routeData" Selector="h1" />
+    </Found>
+
+    <NotFound>
+        <PageTitle>Not found</PageTitle>
+        <LayoutView Layout="@typeof(MainLayout)">
+            <p role="alert">Sorry, there's nothing at this address.</p>
+        </LayoutView>
+    </NotFound>
+</Router>

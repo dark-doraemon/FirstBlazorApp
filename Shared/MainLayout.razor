@@ -1,0 +1,29 @@
+﻿@* the layout must inherit from the LayoutComponentBase *@
+@inherits LayoutComponentBase
+
+
+<header class="bg-dark text-white">
+    <nav class="text-center">
+        <a href="/">Home</a>
+        <a href="about">About</a>
+        <a href="contact">Contact</a>
+    </nav>
+</header>
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-3">
+            <MyNav />
+        </div>
+
+        <div class="col-sm-9">
+            @Body @* specifies the location in the layout where the component’s content is rendered. *@
+        </div>
+    </div>
+</div>
+
+
+<footer class="bg-success">
+    All Rights Reserved
+</footer>

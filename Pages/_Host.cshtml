@@ -1,0 +1,36 @@
+﻿@* Razor View *@
+
+@page "/"
+@namespace FirstBlazorApp.Pages
+@using Microsoft.AspNetCore.Components.Web
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blazor First App</title>
+    <base href="~/" /> @* The "base" html tag specifies the base URL, which is root url, for all relative URLs on the app. *@
+
+
+    @* HeadOutlet renders content provided by PageTitle and HeadContent components. *@
+    @* In short it will help to set the page titles, metas, etc on the html head section for different razor components. *@
+    <component type="typeof(HeadOutlet)" render-mode="ServerPrerendered" />
+    @* ServerPrerendered It tells to render the component into static HTML and includes a marker for a Blazor server-side application *@
+
+    <link href="~/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+
+    @* Next, inside the body, we calls Blazor Router component which is defined by the App.razor as shown below: *@
+    <div class="m-1 p-1">
+        <component type="typeof(App)" render-mode="ServerPrerendered" />
+    </div>
+
+
+    @* The script element specifies the name of the JavaScript file that establishes the SignalR connection with the server. *@
+    @* Note that you “don’t” have to add this JavaScript file to the project as it will be done automatically by Blazor. *@
+    <script src="_framework/blazor.server.js"></script>
+</body>
+</html>
