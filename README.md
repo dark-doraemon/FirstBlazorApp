@@ -2,8 +2,9 @@
 Blazor Event Handling is the process to respond to events like button click, select change, text change on text box, clipboard events, mouse events, etc. Then perfoming some work if the events happen. 
 
 ## What will you learn in this section
-1. Events in Blazor
->> How do events work in Blazor
+>> 1. Events in Blazor
+
+How do events work in Blazor ?
 
 . The Blazor JavaScript code receives the event that is triggered and forwards it to the server over the persistent HTTP connection (SignalR) <br>
 . Then the handler method is invoked (on the server), and the state of the component is updated (on the server).<br>
