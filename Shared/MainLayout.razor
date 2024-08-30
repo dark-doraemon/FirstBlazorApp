@@ -2,7 +2,7 @@
 @inherits LayoutComponentBase
 
 
-<header class="bg-dark text-white">
+<header class="bg-secondary text-white">
     <nav class="text-center">
         <a href="/">Home</a>
         <a href="about">About</a>
@@ -18,8 +18,13 @@
         </div>
 
         <div class="col-sm-9">
+            <h1>↓ @@Body below ↓</h1>
             @Body @* specifies the location in the layout where the component’s content is rendered. *@
+
+            @* Luồng của chương trình sẽ là từ _Host.cshtml -> gọi component App -> App sẽ kiểm tra route xem có hợp lệ không
+            -> Nếu hợp lệ thì chọn Layout để render (chính là file này) *@
         </div>
+        
     </div>
 </div>
 

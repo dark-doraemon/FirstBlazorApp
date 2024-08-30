@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WIFPqVDJCR9/QvyPPx67tkMi88kFmg8t1zpiYeGzP4Q=",
+  "Hash": "van9H6Uip1UdeCLrRw7EFvBJqEZ5OQMFf1AD/AnFNnI=",
   "Source": "FirstBlazorApp",
   "BasePath": "_content/FirstBlazorApp",
   "Mode": "Default",
@@ -8,171 +8,19 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "FirstBlazorApp\\wwwroot",
+      "Name": "FirstBlazorApp/wwwroot",
       "Source": "FirstBlazorApp",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap.css",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/css/bootstrap-grid.css",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
-      "BasePath": "_content/FirstBlazorApp",
-      "RelativePath": "lib/bootstrap/css/bootstrap.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.css"
-    },
-    {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap.css.map",
-      "SourceId": "FirstBlazorApp",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
-      "BasePath": "_content/FirstBlazorApp",
-      "RelativePath": "lib/bootstrap/css/bootstrap.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.css.map"
-    },
-    {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css",
-      "SourceId": "FirstBlazorApp",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
-      "BasePath": "_content/FirstBlazorApp",
-      "RelativePath": "lib/bootstrap/css/bootstrap.min.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css"
-    },
-    {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css.map",
-      "SourceId": "FirstBlazorApp",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
-      "BasePath": "_content/FirstBlazorApp",
-      "RelativePath": "lib/bootstrap/css/bootstrap.min.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css.map"
-    },
-    {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.css",
-      "SourceId": "FirstBlazorApp",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
-      "BasePath": "_content/FirstBlazorApp",
-      "RelativePath": "lib/bootstrap/css/bootstrap.rtl.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.css"
-    },
-    {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.css.map",
-      "SourceId": "FirstBlazorApp",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
-      "BasePath": "_content/FirstBlazorApp",
-      "RelativePath": "lib/bootstrap/css/bootstrap.rtl.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.css.map"
-    },
-    {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.min.css",
-      "SourceId": "FirstBlazorApp",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
-      "BasePath": "_content/FirstBlazorApp",
-      "RelativePath": "lib/bootstrap/css/bootstrap.rtl.min.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.min.css"
-    },
-    {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.min.css.map",
-      "SourceId": "FirstBlazorApp",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
-      "BasePath": "_content/FirstBlazorApp",
-      "RelativePath": "lib/bootstrap/css/bootstrap.rtl.min.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.min.css.map"
-    },
-    {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.css",
-      "SourceId": "FirstBlazorApp",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -185,13 +33,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/css/bootstrap-grid.css"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.css.map",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/css/bootstrap-grid.css.map",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -204,13 +52,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/css/bootstrap-grid.css.map"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.min.css",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/css/bootstrap-grid.min.css",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -223,13 +71,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.min.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/css/bootstrap-grid.min.css"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/css/bootstrap-grid.min.css.map",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -242,13 +90,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.min.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/css/bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.css",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/css/bootstrap-grid.rtl.css",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -261,13 +109,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/css/bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/css/bootstrap-grid.rtl.css.map",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -280,13 +128,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/css/bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/css/bootstrap-grid.rtl.min.css",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -299,13 +147,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.min.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/css/bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/css/bootstrap-grid.rtl.min.css.map",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -318,13 +166,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/css/bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.css",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/css/bootstrap-reboot.css",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -337,13 +185,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/css/bootstrap-reboot.css"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/css/bootstrap-reboot.css.map",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -356,13 +204,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/css/bootstrap-reboot.css.map"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/css/bootstrap-reboot.min.css",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -375,13 +223,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.min.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/css/bootstrap-reboot.min.css"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/css/bootstrap-reboot.min.css.map",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -394,13 +242,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.min.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/css/bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/css/bootstrap-reboot.rtl.css",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -413,13 +261,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/css/bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/css/bootstrap-reboot.rtl.css.map",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -432,13 +280,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/css/bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/css/bootstrap-reboot.rtl.min.css",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -451,13 +299,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.min.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/css/bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/css/bootstrap-reboot.rtl.min.css.map",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -470,13 +318,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/css/bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.css",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/css/bootstrap-utilities.css",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -489,13 +337,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/css/bootstrap-utilities.css"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.css.map",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/css/bootstrap-utilities.css.map",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -508,13 +356,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/css/bootstrap-utilities.css.map"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.min.css",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/css/bootstrap-utilities.min.css",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -527,13 +375,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.min.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/css/bootstrap-utilities.min.css"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/css/bootstrap-utilities.min.css.map",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -546,13 +394,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.min.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/css/bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/css/bootstrap-utilities.rtl.css",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -565,13 +413,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/css/bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/css/bootstrap-utilities.rtl.css.map",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -584,13 +432,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/css/bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/css/bootstrap-utilities.rtl.min.css",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -603,13 +451,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.min.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/css/bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/css/bootstrap-utilities.rtl.min.css.map",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -622,13 +470,165 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/css/bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.js",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/css/bootstrap.css",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
+      "BasePath": "_content/FirstBlazorApp",
+      "RelativePath": "lib/bootstrap/css/bootstrap.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/css/bootstrap.css"
+    },
+    {
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/css/bootstrap.css.map",
+      "SourceId": "FirstBlazorApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
+      "BasePath": "_content/FirstBlazorApp",
+      "RelativePath": "lib/bootstrap/css/bootstrap.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/css/bootstrap.css.map"
+    },
+    {
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/css/bootstrap.min.css",
+      "SourceId": "FirstBlazorApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
+      "BasePath": "_content/FirstBlazorApp",
+      "RelativePath": "lib/bootstrap/css/bootstrap.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/css/bootstrap.min.css"
+    },
+    {
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/css/bootstrap.min.css.map",
+      "SourceId": "FirstBlazorApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
+      "BasePath": "_content/FirstBlazorApp",
+      "RelativePath": "lib/bootstrap/css/bootstrap.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/css/bootstrap.min.css.map"
+    },
+    {
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/css/bootstrap.rtl.css",
+      "SourceId": "FirstBlazorApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
+      "BasePath": "_content/FirstBlazorApp",
+      "RelativePath": "lib/bootstrap/css/bootstrap.rtl.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/css/bootstrap.rtl.css"
+    },
+    {
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/css/bootstrap.rtl.css.map",
+      "SourceId": "FirstBlazorApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
+      "BasePath": "_content/FirstBlazorApp",
+      "RelativePath": "lib/bootstrap/css/bootstrap.rtl.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/css/bootstrap.rtl.min.css",
+      "SourceId": "FirstBlazorApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
+      "BasePath": "_content/FirstBlazorApp",
+      "RelativePath": "lib/bootstrap/css/bootstrap.rtl.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/css/bootstrap.rtl.min.css.map",
+      "SourceId": "FirstBlazorApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
+      "BasePath": "_content/FirstBlazorApp",
+      "RelativePath": "lib/bootstrap/css/bootstrap.rtl.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/js/bootstrap.bundle.js",
+      "SourceId": "FirstBlazorApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -641,13 +641,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.js"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/js/bootstrap.bundle.js"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.js.map",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/js/bootstrap.bundle.js.map",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -660,13 +660,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.js.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/js/bootstrap.bundle.js.map"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/js/bootstrap.bundle.min.js",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -679,13 +679,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.min.js"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/js/bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/js/bootstrap.bundle.min.js.map",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -698,13 +698,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.min.js.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/js/bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.js",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/js/bootstrap.esm.js",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -717,13 +717,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.js"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/js/bootstrap.esm.js"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.js.map",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/js/bootstrap.esm.js.map",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -736,13 +736,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.js.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/js/bootstrap.esm.js.map"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.min.js",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/js/bootstrap.esm.min.js",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -755,13 +755,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.min.js"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/js/bootstrap.esm.min.js"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.min.js.map",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/js/bootstrap.esm.min.js.map",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -774,13 +774,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.min.js.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/js/bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\js\\bootstrap.js",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/js/bootstrap.js",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/js/bootstrap.js",
       "AssetKind": "All",
@@ -793,13 +793,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.js"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/js/bootstrap.js"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\js\\bootstrap.js.map",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/js/bootstrap.js.map",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -812,13 +812,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.js.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/js/bootstrap.js.map"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\js\\bootstrap.min.js",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/js/bootstrap.min.js",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -831,13 +831,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.min.js"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/js/bootstrap.min.js"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\js\\bootstrap.min.js.map",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/js/bootstrap.min.js.map",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -850,13 +850,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.min.js.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/js/bootstrap.min.js.map"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\_accordion.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/_accordion.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/_accordion.scss",
       "AssetKind": "All",
@@ -869,13 +869,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_accordion.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/_accordion.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\_alert.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/_alert.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/_alert.scss",
       "AssetKind": "All",
@@ -888,13 +888,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_alert.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/_alert.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\_badge.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/_badge.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/_badge.scss",
       "AssetKind": "All",
@@ -907,13 +907,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_badge.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/_badge.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\_breadcrumb.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/_breadcrumb.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/_breadcrumb.scss",
       "AssetKind": "All",
@@ -926,13 +926,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_breadcrumb.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/_breadcrumb.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\_button-group.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/_button-group.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/_button-group.scss",
       "AssetKind": "All",
@@ -945,13 +945,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_button-group.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/_button-group.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\_buttons.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/_buttons.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/_buttons.scss",
       "AssetKind": "All",
@@ -964,13 +964,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_buttons.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/_buttons.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\_card.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/_card.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/_card.scss",
       "AssetKind": "All",
@@ -983,13 +983,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_card.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/_card.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\_carousel.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/_carousel.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/_carousel.scss",
       "AssetKind": "All",
@@ -1002,13 +1002,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_carousel.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/_carousel.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\_close.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/_close.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/_close.scss",
       "AssetKind": "All",
@@ -1021,13 +1021,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_close.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/_close.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\_containers.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/_containers.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/_containers.scss",
       "AssetKind": "All",
@@ -1040,13 +1040,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_containers.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/_containers.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\_dropdown.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/_dropdown.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/_dropdown.scss",
       "AssetKind": "All",
@@ -1059,13 +1059,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_dropdown.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/_dropdown.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\_forms.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/_forms.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/_forms.scss",
       "AssetKind": "All",
@@ -1078,13 +1078,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_forms.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/_forms.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\_functions.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/_functions.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/_functions.scss",
       "AssetKind": "All",
@@ -1097,13 +1097,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_functions.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/_functions.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\_grid.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/_grid.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/_grid.scss",
       "AssetKind": "All",
@@ -1116,13 +1116,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_grid.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/_grid.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\_helpers.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/_helpers.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/_helpers.scss",
       "AssetKind": "All",
@@ -1135,13 +1135,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_helpers.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/_helpers.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\_images.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/_images.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/_images.scss",
       "AssetKind": "All",
@@ -1154,13 +1154,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_images.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/_images.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\_list-group.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/_list-group.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/_list-group.scss",
       "AssetKind": "All",
@@ -1173,13 +1173,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_list-group.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/_list-group.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\_maps.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/_maps.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/_maps.scss",
       "AssetKind": "All",
@@ -1192,13 +1192,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_maps.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/_maps.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\_mixins.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/_mixins.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/_mixins.scss",
       "AssetKind": "All",
@@ -1211,13 +1211,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_mixins.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/_mixins.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\_modal.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/_modal.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/_modal.scss",
       "AssetKind": "All",
@@ -1230,13 +1230,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_modal.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/_modal.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\_nav.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/_nav.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/_nav.scss",
       "AssetKind": "All",
@@ -1249,13 +1249,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_nav.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/_nav.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\_navbar.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/_navbar.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/_navbar.scss",
       "AssetKind": "All",
@@ -1268,13 +1268,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_navbar.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/_navbar.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\_offcanvas.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/_offcanvas.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/_offcanvas.scss",
       "AssetKind": "All",
@@ -1287,13 +1287,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_offcanvas.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/_offcanvas.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\_pagination.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/_pagination.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/_pagination.scss",
       "AssetKind": "All",
@@ -1306,13 +1306,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_pagination.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/_pagination.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\_placeholders.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/_placeholders.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/_placeholders.scss",
       "AssetKind": "All",
@@ -1325,13 +1325,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_placeholders.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/_placeholders.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\_popover.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/_popover.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/_popover.scss",
       "AssetKind": "All",
@@ -1344,13 +1344,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_popover.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/_popover.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\_progress.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/_progress.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/_progress.scss",
       "AssetKind": "All",
@@ -1363,13 +1363,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_progress.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/_progress.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\_reboot.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/_reboot.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/_reboot.scss",
       "AssetKind": "All",
@@ -1382,13 +1382,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_reboot.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/_reboot.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\_root.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/_root.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/_root.scss",
       "AssetKind": "All",
@@ -1401,13 +1401,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_root.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/_root.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\_spinners.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/_spinners.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/_spinners.scss",
       "AssetKind": "All",
@@ -1420,13 +1420,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_spinners.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/_spinners.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\_tables.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/_tables.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/_tables.scss",
       "AssetKind": "All",
@@ -1439,13 +1439,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_tables.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/_tables.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\_toasts.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/_toasts.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/_toasts.scss",
       "AssetKind": "All",
@@ -1458,13 +1458,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_toasts.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/_toasts.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\_tooltip.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/_tooltip.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/_tooltip.scss",
       "AssetKind": "All",
@@ -1477,13 +1477,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_tooltip.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/_tooltip.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\_transitions.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/_transitions.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/_transitions.scss",
       "AssetKind": "All",
@@ -1496,13 +1496,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_transitions.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/_transitions.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\_type.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/_type.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/_type.scss",
       "AssetKind": "All",
@@ -1515,13 +1515,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_type.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/_type.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\_utilities.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/_utilities.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/_utilities.scss",
       "AssetKind": "All",
@@ -1534,32 +1534,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_utilities.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/_utilities.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\_variables.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/_variables-dark.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
-      "BasePath": "_content/FirstBlazorApp",
-      "RelativePath": "lib/bootstrap/scss/_variables.scss",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_variables.scss"
-    },
-    {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\_variables-dark.scss",
-      "SourceId": "FirstBlazorApp",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/_variables-dark.scss",
       "AssetKind": "All",
@@ -1572,15 +1553,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_variables-dark.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/_variables-dark.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\bootstrap.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/_variables.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
-      "RelativePath": "lib/bootstrap/scss/bootstrap.scss",
+      "RelativePath": "lib/bootstrap/scss/_variables.scss",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1591,13 +1572,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\bootstrap.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/_variables.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\bootstrap-grid.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/bootstrap-grid.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/bootstrap-grid.scss",
       "AssetKind": "All",
@@ -1610,13 +1591,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\bootstrap-grid.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/bootstrap-grid.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/bootstrap-reboot.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/bootstrap-reboot.scss",
       "AssetKind": "All",
@@ -1629,13 +1610,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\bootstrap-reboot.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/bootstrap-reboot.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\bootstrap-utilities.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/bootstrap-utilities.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/bootstrap-utilities.scss",
       "AssetKind": "All",
@@ -1648,13 +1629,32 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\bootstrap-utilities.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/bootstrap-utilities.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\forms\\_floating-labels.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/bootstrap.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
+      "BasePath": "_content/FirstBlazorApp",
+      "RelativePath": "lib/bootstrap/scss/bootstrap.scss",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/bootstrap.scss"
+    },
+    {
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/forms/_floating-labels.scss",
+      "SourceId": "FirstBlazorApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/forms/_floating-labels.scss",
       "AssetKind": "All",
@@ -1667,13 +1667,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\forms\\_floating-labels.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/forms/_floating-labels.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\forms\\_form-check.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/forms/_form-check.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/forms/_form-check.scss",
       "AssetKind": "All",
@@ -1686,13 +1686,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\forms\\_form-check.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/forms/_form-check.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\forms\\_form-control.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/forms/_form-control.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/forms/_form-control.scss",
       "AssetKind": "All",
@@ -1705,13 +1705,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\forms\\_form-control.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/forms/_form-control.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\forms\\_form-range.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/forms/_form-range.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/forms/_form-range.scss",
       "AssetKind": "All",
@@ -1724,13 +1724,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\forms\\_form-range.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/forms/_form-range.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\forms\\_form-select.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/forms/_form-select.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/forms/_form-select.scss",
       "AssetKind": "All",
@@ -1743,13 +1743,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\forms\\_form-select.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/forms/_form-select.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\forms\\_form-text.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/forms/_form-text.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/forms/_form-text.scss",
       "AssetKind": "All",
@@ -1762,13 +1762,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\forms\\_form-text.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/forms/_form-text.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\forms\\_input-group.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/forms/_input-group.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/forms/_input-group.scss",
       "AssetKind": "All",
@@ -1781,13 +1781,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\forms\\_input-group.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/forms/_input-group.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\forms\\_labels.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/forms/_labels.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/forms/_labels.scss",
       "AssetKind": "All",
@@ -1800,13 +1800,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\forms\\_labels.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/forms/_labels.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\forms\\_validation.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/forms/_validation.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/forms/_validation.scss",
       "AssetKind": "All",
@@ -1819,13 +1819,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\forms\\_validation.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/forms/_validation.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_clearfix.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/helpers/_clearfix.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/helpers/_clearfix.scss",
       "AssetKind": "All",
@@ -1838,13 +1838,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\helpers\\_clearfix.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/helpers/_clearfix.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_color-bg.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/helpers/_color-bg.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/helpers/_color-bg.scss",
       "AssetKind": "All",
@@ -1857,13 +1857,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\helpers\\_color-bg.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/helpers/_color-bg.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_colored-links.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/helpers/_colored-links.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/helpers/_colored-links.scss",
       "AssetKind": "All",
@@ -1876,13 +1876,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\helpers\\_colored-links.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/helpers/_colored-links.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_focus-ring.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/helpers/_focus-ring.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/helpers/_focus-ring.scss",
       "AssetKind": "All",
@@ -1895,13 +1895,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\helpers\\_focus-ring.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/helpers/_focus-ring.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_icon-link.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/helpers/_icon-link.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/helpers/_icon-link.scss",
       "AssetKind": "All",
@@ -1914,13 +1914,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\helpers\\_icon-link.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/helpers/_icon-link.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_position.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/helpers/_position.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/helpers/_position.scss",
       "AssetKind": "All",
@@ -1933,13 +1933,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\helpers\\_position.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/helpers/_position.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_ratio.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/helpers/_ratio.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/helpers/_ratio.scss",
       "AssetKind": "All",
@@ -1952,13 +1952,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\helpers\\_ratio.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/helpers/_ratio.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_stacks.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/helpers/_stacks.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/helpers/_stacks.scss",
       "AssetKind": "All",
@@ -1971,13 +1971,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\helpers\\_stacks.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/helpers/_stacks.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_stretched-link.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/helpers/_stretched-link.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/helpers/_stretched-link.scss",
       "AssetKind": "All",
@@ -1990,13 +1990,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\helpers\\_stretched-link.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/helpers/_stretched-link.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_text-truncation.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/helpers/_text-truncation.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/helpers/_text-truncation.scss",
       "AssetKind": "All",
@@ -2009,13 +2009,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\helpers\\_text-truncation.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/helpers/_text-truncation.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/helpers/_visually-hidden.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/helpers/_visually-hidden.scss",
       "AssetKind": "All",
@@ -2028,13 +2028,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\helpers\\_visually-hidden.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/helpers/_visually-hidden.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_vr.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/helpers/_vr.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/helpers/_vr.scss",
       "AssetKind": "All",
@@ -2047,13 +2047,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\helpers\\_vr.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/helpers/_vr.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_alert.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/mixins/_alert.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/mixins/_alert.scss",
       "AssetKind": "All",
@@ -2066,13 +2066,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_alert.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/mixins/_alert.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_backdrop.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/mixins/_backdrop.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/mixins/_backdrop.scss",
       "AssetKind": "All",
@@ -2085,13 +2085,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_backdrop.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/mixins/_backdrop.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_banner.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/mixins/_banner.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/mixins/_banner.scss",
       "AssetKind": "All",
@@ -2104,13 +2104,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_banner.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/mixins/_banner.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/mixins/_border-radius.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/mixins/_border-radius.scss",
       "AssetKind": "All",
@@ -2123,13 +2123,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_border-radius.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/mixins/_border-radius.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/mixins/_box-shadow.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/mixins/_box-shadow.scss",
       "AssetKind": "All",
@@ -2142,13 +2142,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_box-shadow.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/mixins/_box-shadow.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/mixins/_breakpoints.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/mixins/_breakpoints.scss",
       "AssetKind": "All",
@@ -2161,13 +2161,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_breakpoints.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/mixins/_breakpoints.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/mixins/_buttons.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/mixins/_buttons.scss",
       "AssetKind": "All",
@@ -2180,13 +2180,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_buttons.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/mixins/_buttons.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_caret.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/mixins/_caret.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/mixins/_caret.scss",
       "AssetKind": "All",
@@ -2199,13 +2199,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_caret.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/mixins/_caret.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/mixins/_clearfix.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/mixins/_clearfix.scss",
       "AssetKind": "All",
@@ -2218,13 +2218,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_clearfix.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/mixins/_clearfix.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_color-mode.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/mixins/_color-mode.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/mixins/_color-mode.scss",
       "AssetKind": "All",
@@ -2237,13 +2237,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_color-mode.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/mixins/_color-mode.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_color-scheme.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/mixins/_color-scheme.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/mixins/_color-scheme.scss",
       "AssetKind": "All",
@@ -2256,13 +2256,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_color-scheme.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/mixins/_color-scheme.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_container.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/mixins/_container.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/mixins/_container.scss",
       "AssetKind": "All",
@@ -2275,13 +2275,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_container.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/mixins/_container.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/mixins/_deprecate.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/mixins/_deprecate.scss",
       "AssetKind": "All",
@@ -2294,13 +2294,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_deprecate.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/mixins/_deprecate.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_forms.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/mixins/_forms.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/mixins/_forms.scss",
       "AssetKind": "All",
@@ -2313,13 +2313,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_forms.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/mixins/_forms.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/mixins/_gradients.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/mixins/_gradients.scss",
       "AssetKind": "All",
@@ -2332,13 +2332,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_gradients.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/mixins/_gradients.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_grid.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/mixins/_grid.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/mixins/_grid.scss",
       "AssetKind": "All",
@@ -2351,13 +2351,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_grid.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/mixins/_grid.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_image.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/mixins/_image.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/mixins/_image.scss",
       "AssetKind": "All",
@@ -2370,13 +2370,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_image.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/mixins/_image.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/mixins/_list-group.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/mixins/_list-group.scss",
       "AssetKind": "All",
@@ -2389,13 +2389,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_list-group.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/mixins/_list-group.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_lists.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/mixins/_lists.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/mixins/_lists.scss",
       "AssetKind": "All",
@@ -2408,13 +2408,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_lists.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/mixins/_lists.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/mixins/_pagination.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/mixins/_pagination.scss",
       "AssetKind": "All",
@@ -2427,13 +2427,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_pagination.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/mixins/_pagination.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/mixins/_reset-text.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/mixins/_reset-text.scss",
       "AssetKind": "All",
@@ -2446,13 +2446,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_reset-text.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/mixins/_reset-text.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_resize.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/mixins/_resize.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/mixins/_resize.scss",
       "AssetKind": "All",
@@ -2465,13 +2465,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_resize.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/mixins/_resize.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_table-variants.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/mixins/_table-variants.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/mixins/_table-variants.scss",
       "AssetKind": "All",
@@ -2484,13 +2484,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_table-variants.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/mixins/_table-variants.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/mixins/_text-truncate.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/mixins/_text-truncate.scss",
       "AssetKind": "All",
@@ -2503,13 +2503,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_text-truncate.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/mixins/_text-truncate.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_transition.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/mixins/_transition.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/mixins/_transition.scss",
       "AssetKind": "All",
@@ -2522,13 +2522,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_transition.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/mixins/_transition.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_utilities.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/mixins/_utilities.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/mixins/_utilities.scss",
       "AssetKind": "All",
@@ -2541,13 +2541,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_utilities.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/mixins/_utilities.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/mixins/_visually-hidden.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/mixins/_visually-hidden.scss",
       "AssetKind": "All",
@@ -2560,13 +2560,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_visually-hidden.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/mixins/_visually-hidden.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_api.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/utilities/_api.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/utilities/_api.scss",
       "AssetKind": "All",
@@ -2579,13 +2579,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\utilities\\_api.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/utilities/_api.scss"
     },
     {
-      "Identity": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\lib\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "Identity": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/scss/vendor/_rfs.scss",
       "SourceId": "FirstBlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\LinhTinh\\FirstBlazorApp\\wwwroot\\",
+      "ContentRoot": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/",
       "BasePath": "_content/FirstBlazorApp",
       "RelativePath": "lib/bootstrap/scss/vendor/_rfs.scss",
       "AssetKind": "All",
@@ -2598,7 +2598,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\vendor\\_rfs.scss"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/scss/vendor/_rfs.scss"
     }
   ]
 }

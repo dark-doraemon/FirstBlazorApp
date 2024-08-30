@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/TwIVyI8hiCKIcgORGYFDoMZUE6m6iXrjbD30zUkoTBAkIXiCoFrLoknGtM47LZxRfmVfk7NWBxVn4phOsCAyw==",
+  "dgSpecHash": "/s6zxXAwJ5Q=",
   "success": true,
-  "projectFilePath": "D:\\Code\\LinhTinh\\FirstBlazorApp\\FirstBlazorApp.csproj",
+  "projectFilePath": "/home/counterlogic/DOTNET/FirstBlazorApp/FirstBlazorApp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

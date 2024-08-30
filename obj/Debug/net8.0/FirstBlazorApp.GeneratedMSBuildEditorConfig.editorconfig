@@ -9,47 +9,47 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FirstBlazorApp
 build_property.RootNamespace = FirstBlazorApp
-build_property.ProjectDir = D:\Code\LinhTinh\FirstBlazorApp\
+build_property.ProjectDir = /home/counterlogic/DOTNET/FirstBlazorApp/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Code\LinhTinh\FirstBlazorApp
+build_property.MSBuildProjectDirectory = /home/counterlogic/DOTNET/FirstBlazorApp
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Code/LinhTinh/FirstBlazorApp/App.razor]
+[/home/counterlogic/DOTNET/FirstBlazorApp/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Code/LinhTinh/FirstBlazorApp/Pages/City.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2l0eS5yYXpvcg==
+[/home/counterlogic/DOTNET/FirstBlazorApp/Pages/City.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2l0eS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Code/LinhTinh/FirstBlazorApp/Pages/Continent.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGluZW50LnJhem9y
+[/home/counterlogic/DOTNET/FirstBlazorApp/Pages/Continent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29udGluZW50LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Code/LinhTinh/FirstBlazorApp/Pages/Country.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRyeS5yYXpvcg==
+[/home/counterlogic/DOTNET/FirstBlazorApp/Pages/Country.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRyeS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Code/LinhTinh/FirstBlazorApp/Pages/Index.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+[/home/counterlogic/DOTNET/FirstBlazorApp/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Code/LinhTinh/FirstBlazorApp/Shared/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+[/home/counterlogic/DOTNET/FirstBlazorApp/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Code/LinhTinh/FirstBlazorApp/Shared/MyNav.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE15TmF2LnJhem9y
+[/home/counterlogic/DOTNET/FirstBlazorApp/Shared/MyNav.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL015TmF2LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Code/LinhTinh/FirstBlazorApp/_Imports.razor]
+[/home/counterlogic/DOTNET/FirstBlazorApp/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Code/LinhTinh/FirstBlazorApp/Pages/_Host.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+[/home/counterlogic/DOTNET/FirstBlazorApp/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

@@ -2,17 +2,19 @@
 
 
 
-@* @page directives for declaring the URLs for which this Razor Component will be displayed *@
+@* "@page" directives for declaring the URLs for which this Razor Component will be displayed *@
 @* More than one route can be defined for a component *@
 @page "/"
 @page "/a"
 @page "/b"
 @page "/c"
+@page "/a/b/c"
 
 @* PageTitle blazor component to set the page title for this page as “Hello Blazor” *@
 @* Recall we have “HeadOutlet” component on the _Host.cshtml. *@
 @* <component type="typeof(HeadOutlet)" render-mode="ServerPrerendered" /> *@
 @* So whatever PageTitle components is addded as html title for the page by the HeadOutlet component. *@
+@* Tóm lại PageTitle dùng để làm giá trị cho component HeadOutlet ở _Host.cshtml *@
 <PageTitle>Hello Blazor</PageTitle>
 
 <h1 class="bg-info text-white">Hello</h1>
@@ -26,7 +28,7 @@
         </tr>
     </thead>
 
-
+    @* tạo 1 table list peope => easy thôi không cần phải suy nghĩ *@
     <tbody>
         @foreach (People p in peopleList)
         {
@@ -41,11 +43,14 @@
 
 <div class="form-group">
     <label for="city">City</label>
+
+    @* value của thẻ select được liên kết với SelectedCity ở code *@
+    @* khi ta chọn option thì value của SelectedCity cũng thay đổi theo *@
     <select name="city" class="form-control" @bind="SelectedCity">
         <option disabled selected>Select City</option>
         @foreach (string city in Cities)
         {
-            <option value="@city" selected="@(city == SelectedCity)">
+            <option value="@city" >
                 @city
             </option>
         }

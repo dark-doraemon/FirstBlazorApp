@@ -4,14 +4,19 @@
 
 
 @* Router, Found, NotFound, RouteView etc are all Blazor in-built components *@
-@* we need to specify the name of the .NET AppAssembly to use which in most cases is the current assembly("App" because this file names App.razor): *@
+@* First, we need to specify the name of the ".NET AppAssembly" to use which in most cases is the current assembly("App" because this file named App.razor): *@
 <Router AppAssembly="@typeof(App).Assembly">
     @* In the Found section provide the contents to display when the match to the requested route (i.e. URL) is found *@
-    @* nghĩa là nếu any component có URL giống với URL được request thì component đó sẽ render, ngược lại nó sẽ render Not Found *@
+    @* nghĩa là nếu component có URL giống với URL được request thì component đó sẽ render, ngược lại nó sẽ render Not Found *@
     @* và nó sẽ lấy nội dụng của component đó render trong MainLayout *@
+
+    @* khi Found thì dữ liệu sẽ được gán vào 1 biến, ta đặt tên là routeData 
+    @* routeData này sẽ dược dùng để làm dữ liệu cho RouteView *@
     <Found Context="routeData">
-        @* The RouteView shows the matching component’s contents (routeData) inside the layout (UI)(MainLayout). *@
+        @* The RouteView populates the matching component’s contents (routeData) inside the layout (MainLayout) *@
         <RouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)" />
+
+        @* The FocusOnNavigate sets the UI focus to the top level h1 element when the navigating takes place from one page to another. *@
         <FocusOnNavigate RouteData="@routeData" Selector="h1" />
     </Found>
 

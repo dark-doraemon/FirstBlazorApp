@@ -10,8 +10,10 @@ EXPLAINATION about NavLink - this is a buil-in component
  whether it’s href matches the current URL in the browser. 
  With this, you can assign a color to this active class and app users will know which URL they are currently in. *@
 @* Nghĩa là nếu sử dụng NavLink component thì nó tự biến thành thẻ a (cái này bình thường không có gì, các front-end framework khác cũng vậy)
-nhưng nó sẽ tự động thêm class có tên là active dù ta không có class active, và ta có thể css class này để ngưởi dùng biết rằng mình đang ở link này *@
+nhưng nó sẽ tự động thêm class có tên là "active" dù ta không có class active, 
+và ta có thể css class này để ngưởi dùng biết rằng mình đã click vào link này *@
 
+@* và ta sử dụng NavLink thay vì thẻ a thì sẽ không bị reload *@
 
 @*  For example, by adding the following NavLink Component on a Razor Component:
 <NavLink href="/City">City</NavLink> *@
@@ -41,16 +43,21 @@ nhưng nó sẽ tự động thêm class có tên là active dù ta không có c
         <li class="nav-item px-3">
 
             @* link to Index component or without nay component *@
-            <NavLink href="/" Match="NavLinkMatch.All"> @* The NavLink is active when the entire current URL matches *@
+            <NavLink href="/" Match="NavLinkMatch.All"> @* Match attribute -> The NavLink is active when the entire current URL matches *@
                 Index
             </NavLink>
         </li>
 
 
         @* The other NavLinks do not have a "Match"" attribute so the default one – NavLinkMatch.Prefix will automatically be used. *@
+        @* It means:  *@
+        @* NavLink is active when any "prefix" of Current URL is matched *@
+        @* For example *@
         <li class="nav-item px-3">
             @* link to City component *@
-            <NavLink href="/City">
+            @* if users request to this url https://localhost:5156/City or https://localhost:5156/City/NYC *@
+            @* It will be the same  *@
+            <NavLink href="/City"> 
                 City
             </NavLink>
         </li>
@@ -80,13 +87,13 @@ It is received by Razor Components using the [Inject] attribute. *@
 @* nghĩa là nếu ta muốn lập trình bằng code c# để ngưởi dùng navigate đến trang khác thì sử dụng class NavigationManager *@
 
 @* VD:
-như code ở dòng 71 thay vì để thẻ a và để đường link vào trực tiếp ta sử dụng button và @onclick="NavigateUser"
+thay vì sử dụng NavLink, ta sử  dụng button và @onclick="NavigateUser"
 trong hàm NavigateUser sẽ xử lí logic gì đó và nó sử dụng clas NavigationManager thì mới di chuyển sang URL khác được *@
 
 
 @code {
 
-    [Inject]
+    [Inject] //NavigationManager được sử dụng như là 1 service nên chúng ta phải Inject nó
     public NavigationManager NM { get; set; }
 
     public void NavigateUser() 
@@ -95,16 +102,16 @@ trong hàm NavigateUser sẽ xử lí logic gì đó và nó sử dụng clas Na
     }
 }
 
-@* Some useful NavigationManager Members *@
+@* Some useful NavigationManager propertíes and methods *@
 @* Uri : This property returns the current URL. *@
 
-@* LocationChanged : This is an event which is fired when the location changes.  *@
+@* LocationChanged : This is an event which is triggered when the location changes.  *@
 
 @* NavigateTo()
 This method navigates to a specific URL. 
 It can accept 2 parameters – first is the navigate URL while the second is a bool type parameter. 
 When you pass true then browser will be forced to load a new page (go to URL and F5). 
-Otherwise false is the default value where navigation Is performed without sending a new HTTP request. *@
+Otherwise false is the default value where navigation is performed without sending a new HTTP request. *@
 
 @* ToAbsoluteUri : This method Converts a relative URI into an absolute URI. *@
 
