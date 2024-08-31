@@ -12,3 +12,7 @@ How do events work in Blazor ?
 Nghĩa là nếu có event gì xảy ra thì javascript sẽ gửi những event đó cho server thông qua SignalR, sao khi server xử lý xong nó sẽ trả về những thay đổi cho browser và JS sẽ xử lý những thay đổi này và update lại giao diện. Điều này xảy ra ngay lập tức và không cần load lại trang <br>
 
 See example in code ->  Pages/Iexample.razor
+
+>> 2. Preventing Default Events (preventDefault) & Event Propagation (stopPropagation)
+
+See example in code -> Pages/DefaultEvent.razor
