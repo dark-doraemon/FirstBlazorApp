@@ -15,4 +15,7 @@ See example in code ->  Pages/Iexample.razor
 
 >> 2. Preventing Default Events (preventDefault) & Event Propagation (stopPropagation)
 
+Suppose a button is kept inside an HTML form tag. Then on clicking the button, the form gets submitted. This is called as the default behaviour of a button click event. Now suppose we add an onclick event to the button. Inside this event we do some work like increasing the counter by 1 every time the button is clicked. When you click, you will notice that on clicking the button, the form gets submitted but the button’s onclick event will not be executed. <br>
+Nghĩa là mặc định nếu ta để 1 button trong trong thẻ form thì button này sẽ tự động được thêm event handler là form submit tức là send nội dụng của form (cái này là mặc đinh của html chứ không phải của framework nào cả). Vì vậy nếu ta thêm event handler vào button này thì nó sẽ không hoạt động mà nó chỉ kích hoạt event handler form submit. Vì vậy phần này sẽ hướng dẫn cách xử lý sự kiện mặc định này
+
 See example in code -> Pages/DefaultEvent.razor
