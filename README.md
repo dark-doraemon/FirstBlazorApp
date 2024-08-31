@@ -28,3 +28,6 @@ Nghĩa là ta có một button trong một thẻ div khi ta và cả 2 thẻ nà
 See example in code ->  Pages/EventPropagation.razor
 
 >> 4. Blazor Data Bindings
+
+See example in code ->  Pages/DataBinding.razor
+
