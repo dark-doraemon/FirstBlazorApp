@@ -1,7 +1,7 @@
 ## Description
 Blazor Event Handling is the process to respond to events like button click, select change, text change on text box, clipboard events, mouse events, etc. Then perfoming some work if the events happen. 
 
-## What will you learn in this section
+## What will you learn in this section ?
 >> 1. Events in Blazor
 
 How do events work in Blazor ?
