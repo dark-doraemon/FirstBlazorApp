@@ -26,3 +26,5 @@ Suppose I have a div tag that contains a button. Both the div and button have on
 Nghĩa là ta có một button trong một thẻ div khi ta và cả 2 thẻ này đều có @onclick. Khi ta click vào button thì thì cả 2 sự kiện này đều được kích hoạt, đầu tiên là từ button sao đó tới thẻ div, nó có thể gây ra một số hành vi chúng ta không mong muốn. Phần này sẽ hướng dẫn cách giải quyết. 
 
 See example in code ->  Pages/EventPropagation.razor
+
+>> 4. Blazor Data Bindings
