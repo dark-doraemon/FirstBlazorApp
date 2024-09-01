@@ -1,0 +1,32 @@
+﻿@page "/defaultevent"
+
+
+<h3 class="bg-secondary text-white">@Counter</h3>
+<form>
+    <div class="form-group">
+        <label>Counter:</label>
+        <br/>
+        if we click on this button it won't increase number because it doesn't call IncreaseCounter but it calls form sumbit(page reload)
+
+        @* nếu ta để 1 button trong trong thẻ form thì button này sẽ tự động được thêm event handler 
+        là form submit tức là send nội dụng của form (cái này là mặc đinh của html chứ không phải của framework nào cả). 
+        Vì vậy nếu ta thêm event handler vào button này thì nó sẽ không hoạt động mà nó chỉ kích hoạt event handler form submit. 
+        Vì vậy phần này sẽ hướng dẫn cách xử lý sự kiện mặc định này         *@
+        <button class="form-control" @onclick="IncreaseCounter">Increase Counter</button>
+        <br/>
+        The solution of this problem is by adding the preventDefault parameter with the onclick event and set it’s value to “true” (@@onclick:preventDefault) (see in code to understand) <br/>
+
+        This button below will work
+        <button class="form-control" @onclick="IncreaseCounter" @onclick:preventDefault>Increase Counter</button>
+
+    </div>
+</form>
+ 
+@code {
+    private int Counter { get; set; }
+ 
+    private void IncreaseCounter(MouseEventArgs e)
+    {
+        Counter++;
+    }
+}

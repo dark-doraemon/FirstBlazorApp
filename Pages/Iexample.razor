@@ -1,0 +1,166 @@
+﻿@page "/Iexample"
+ 
+<h1>Example basic event handler @StaticMessage</h1>
+<h3 class="bg-secondary text-white">@MyName</h3>
+ 
+<div class="form-group">
+    <label>Name:</label>
+    <input type="text" class="form-control" @onchange="Name"/> @* @onchange event of Blazor *@
+    @* it calls a handler method called Name *@
+    @* if user types anything on the text box and lose focuse on textbox => Blazor onchange event is triggered *@
+
+    <button class="btn btn-primary">Enter</button>
+
+</div>
+
+
+
+<hr class="my-4" style="height: 5px; background-color: black; border: none;">
+<h1>Single Handler method @StaticMessage</h1>
+<div class="form-group">
+    <label>First Name</label>
+    @* To avoid code duplication,use Single Handler method  *@
+    <input type="text" class="form-control" @onchange="@(e => Name2(e,null))"/> 
+    <label>Last Name</label>
+    <input type="text" class="form-control" @onchange="@(e => Name2(null,e))"/> 
+    <button class="btn btn-primary">Enter</button>
+
+    <div>
+        First Name = @FirstName
+    </div>
+    <div>
+        Last Name = @LastName
+    </div>
+</div>
+
+
+<hr class="my-4" style="height: 5px; background-color: black; border: none;">
+<h1>Using onchange without EventArgs object @StaticMessage</h1>
+<div>
+    @Text
+</div>
+
+<input type="text" class="form-control" @onchange="@(() => ShowMessage("Hello"))" placeholder="type something"/>
+<button class="btn btn-primary">Enter</button>
+<button class="btn btn-primary" @onclick="ClearText">Clear text</button>
+
+
+
+
+<hr class="my-4" style="height: 5px; background-color: black; border: none;">
+<h1>Events without Handler method @StaticMessage</h1>
+@* You can also process events without using hander method, this is done by using Lambda function.  *@
+<div class="form-group">
+    <label>Message:</label>
+    <button class="btn btn-primary" @onclick="@(() => Message="Hello")">Show Message</button>
+    <button class="btn btn-primary" @onclick="ClearText">Clear text</button>
+</div>
+<h3 class="bg-secondary text-white">@Message</h3>
+
+
+
+<hr class="my-4" style="height: 5px; background-color: black; border: none;">
+<h1>Example: Select “onchange” event @StaticMessage </h1>
+<h3 class="bg-secondary text-white">@MyOption</h3>
+<div class="form-group">
+    <label>Name:</label>
+
+    @* when user selects option, onchange event will be triggered and it will call Option function *@
+    @* This handler method gets the selected option through ChangeEventArgs type parameter *@
+    <select class="form-control" @onchange="Option">
+        <option>Ram</option>
+        <option>Jack</option>
+        <option>Joe</option>
+    </select>
+</div>
+
+
+
+<hr class="my-4" style="height: 5px; background-color: black; border: none;">
+<h1>Example: Checkbox “onchange” event @StaticMessage </h1>
+<h3 class="bg-secondary text-white">@AgreeValue</h3>
+<div class="form-group">
+    <label>Agree to terms:</label>
+
+    @* when user click checkbox onchange event will be called and it will call Agree function *@
+    <input type="checkbox" @onchange="Agree" />
+</div>
+
+
+
+<hr class="my-4" style="height: 5px; background-color: black; border: none;">
+<h1>Example: Radio Button “onchange” event @StaticMessage</h1>
+@* Radio buttons can be used with Blazor "onchange" event to find out the user’s selection.  *@
+@* Note that the name of the radio buttons should be made same cause it is rule (here I have given them the same name “sex”). *@
+<h3 class="bg-secondary text-white">@SexValue</h3>
+
+<div class="form-group">
+    <label>Select sex:</label>
+    <input type="radio" name="sex" value="Male" @onchange="SelectSex" />Male
+    <input type="radio" name="sex" value="Female" @onchange="SelectSex" />Female
+</div>
+
+@code {
+
+    public string StaticMessage { get ;set;} = "(see in code to understand)";
+    public string MyName { get; set; }
+
+    public string FirstName {get ;set;}
+    public string LastName {get ;set;}
+
+    public string Text {get ;set;}
+
+    private string Message { get; set; }
+
+    public string MyOption { get; set; }
+
+    public bool AgreeValue { get; set; }
+    public string SexValue { get; set; }
+ 
+    private void Name(ChangeEventArgs e)
+    {
+        MyName = e.Value as string;
+    }
+
+    @* Single Handler method *@
+    @* Nghĩa là chỉ có 1 hàm mà xử lý cho 2 event onchange *@
+    private void Name2(ChangeEventArgs e1,ChangeEventArgs e2)
+    {
+        if(e1 != null)
+        {
+            FirstName = e1.Value as string;
+        }
+
+        if(e2 != null)
+        {
+            LastName = e2.Value as string;
+        }
+    }
+
+    private void ShowMessage(string text)
+    {
+        Text = text;
+    }
+
+    private void ClearText()
+    {
+        Text= "";
+        Message = "";
+    }
+    private void Option(ChangeEventArgs e)
+    {
+        MyOption = e.Value as string;
+    } 
+
+    private void Agree(ChangeEventArgs e)
+    {
+        @* if e.Value = click, convert to true *@
+        @* if e.Value = unClick, conver to false *@
+        AgreeValue = Convert.ToBoolean(e.Value);
+    }
+
+    private void SelectSex(ChangeEventArgs e)
+    {
+        SexValue = e.Value as string;
+    }
+}

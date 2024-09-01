@@ -1,0 +1,58 @@
+﻿@page "/defaultbinding"
+<h1>
+    Changing the Default Binding Event – “@@bind-event”
+</h1>
+<p>
+    By default, the onchange event is used in bindings.
+    This means when you apply @@bind attribute to an input type text element then the bindings will work only when the
+    input element loses focus. <br>
+    This is because the onchange event is used by @@bind attribute by default.
+
+</p>
+<p>
+    Nghĩa là,
+    vì onchange chỉ cập nhật value khi bị mất focus, nhưng @@bind lại sử dụng tính chất này của onchange<br>
+    do đó nếu chúng ta áp dụng @@bind vào 1 thẻ input, bindings chỉ cập nhật value khi chúng ta mất focus vào text box(click
+    vào chỗ khác) <br>
+
+</p>
+
+<div>
+    <input type="text" class="form-control" @bind="President" placeholder="type something and lose focus this input" />
+    <div class="p-2 mb-2">President is: @President</div>
+    @* Once you run this code and write a president’s name on the input element. 
+    You will notice the President’s value shown by the div is not instantaneous.*@
+    @* It gets updated only when the text box loses it’s focus *@
+
+    @* This is because the onchange event is used by @bind attribute by default.*@
+
+</div>
+
+<h5>
+    Fortunately, Blazor has a mechanism to change this behaviour.
+</h5>
+
+<div>
+    You can use the attribute called <b>@@bind:event="oninput"</b> to change the binding event to oninput.(@Text)
+</div>
+
+
+@* @bind:event="oninput" có nghĩa là nó sẽ attach(gắn) một event handler tên là oninput vào thuộc tính được cung cấp bởi @bind ở đây là President2 *@
+@* oninput có nhiệm vụ là khi input được nhập vào một cái gì đó nó sẽ thông báo cho thuộc tính được liên kết 
+và cập nhật value ngay lập tức*@
+<input type="text" class="form-control" @bind="President2" @bind:event="oninput"/> 
+<div class="p-2 mb-2">President is: @President2</div>
+
+
+
+<h1>
+    Showing DateTime with Culture specific and Formatted values in Blazor
+</h1>
+
+@code
+{
+    public string Text { get; set; } = "See in code to understand";
+
+    private string President { get; set; }
+    private string President2 { get; set; }
+}

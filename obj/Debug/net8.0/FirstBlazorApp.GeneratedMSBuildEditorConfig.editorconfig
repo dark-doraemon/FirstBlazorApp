@@ -22,20 +22,36 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/counterlogic/DOTNET/FirstBlazorApp/Pages/City.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2l0eS5yYXpvcg==
+[/home/counterlogic/DOTNET/FirstBlazorApp/Pages/DataBinding.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRGF0YUJpbmRpbmcucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/counterlogic/DOTNET/FirstBlazorApp/Pages/Continent.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29udGluZW50LnJhem9y
+[/home/counterlogic/DOTNET/FirstBlazorApp/Pages/DateTimeFormatted.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRGF0ZVRpbWVGb3JtYXR0ZWQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/counterlogic/DOTNET/FirstBlazorApp/Pages/Country.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRyeS5yYXpvcg==
+[/home/counterlogic/DOTNET/FirstBlazorApp/Pages/DefaultBinding.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRGVmYXVsdEJpbmRpbmcucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/counterlogic/DOTNET/FirstBlazorApp/Pages/DefaultEvent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRGVmYXVsdEV2ZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/counterlogic/DOTNET/FirstBlazorApp/Pages/EventPropagation.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXZlbnRQcm9wYWdhdGlvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/counterlogic/DOTNET/FirstBlazorApp/Pages/Iexample.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSWV4YW1wbGUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/counterlogic/DOTNET/FirstBlazorApp/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/counterlogic/DOTNET/FirstBlazorApp/Shared/EventLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0V2ZW50TGF5b3V0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/counterlogic/DOTNET/FirstBlazorApp/Shared/MainLayout.razor]

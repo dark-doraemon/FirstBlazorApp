@@ -1,0 +1,46 @@
+﻿@page "/eventpropagation"
+
+@page "/Iexample7"
+<h3 class="bg-secondary text-white">@Message1</h3>
+<h3 class="bg-secondary text-white">@Message2</h3>
+<div class="form-group" @onclick="@(() => Message1="Hello Google")">
+    Click on this text
+    <button class="form-control" @onclick="@(() => Message2="Hello Microsoft")">Show Message</button>
+
+</div>
+<button class="form-control" @onclick="Clear">Clear</button>
+<div>
+    If we click on "Click on this text", it only call one onclick event <br>
+    If we click on button "Show Message", it will call two onclick events (event propagation) <br>
+    Note that event propagation happens from child till to root element of the DOM tree.
+    So if we have more elements in the hierarchy then their events are also called. Nghĩa là nếu có nhiều thẻ (có sự
+    kiện onclick) lồng nhau
+    thì nó sẽ gọi hết và gọi từ thẻ con -> thẻ cha
+    <br>
+    The solution of this problem is by using stopPropagation parameter with the onclick event and set it to “true”.
+    (@@onclick:stopPropagation="true".)<br>
+    Nếu thêm @@onclick:stopPropagation="true" vào thẻ cần thêm thì thẻ đó sẽ không gọi sự kiện onclick ở phía trên(các thẻ cha), chỉ gọi onclick của nó thôi
+</div>
+
+<h1>See in code to know what is happening (Why doesn't it call onclick twice ?)</h1>
+<div>
+    <h3 class="bg-secondary text-white">@Message3</h3>
+    <h3 class="bg-secondary text-white">@Message4</h3>
+    <div class="form-group" @onclick="@(() => Message3="Hello Google")">
+        Show Message:
+        <button class="form-control" @onclick="@(() => Message4="Hello Microsoft")" @onclick:stopPropagation="true">Show Message</button>
+    </div>
+</div>
+
+@code {
+    private string Message1 { get; set; }
+    private string Message2 { get; set; }
+    private string Message3 { get; set; }
+    private string Message4 { get; set; }
+
+    private void Clear()
+    {
+        Message1 = "";
+        Message2 = "";
+    }
+}

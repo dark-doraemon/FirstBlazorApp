@@ -1,0 +1,133 @@
+﻿@page "/databindings"
+
+<h1>One Way Binding in Blazor</h1>
+<div>
+    <h1>
+        @* This is one way binding, we are binding an input tag value to a C# property called Name. *@
+        <input class="form-control" value="@Text" />
+    </h1>
+</div>
+
+
+
+<hr class="my-4" style="height: 5px; background-color: black; border: none;">
+<h5>
+    One way binding with select tag
+</h5>
+
+<div class="form-group">
+    <label>Frameworks:</label>
+    <select class="form-control" value="@Frameworks">
+        <option value="Select">Select</option>
+        <option>Blazor</option>
+        <option>ASP.NET Core</option>
+        using System.Diagnostics;
+        <option>React</option>
+    </select>
+
+    <div class="p-2 mb-2">Framework’s Value: @Frameworks</div>
+</div>
+
+<div>
+    It won't work cause I have created only one way binding, This means;
+    <ol>
+        <li>Select control only got bind with the property value at the start.</li>
+        <li>Select control is not able to change the value of this C# property.</li>
+    </ol>
+</div>
+
+
+<h1>Two Way Binding in Blazor</h1>
+<div>
+    Now I will update the code to create Two Way Binding in Blazor.
+    I will only add "onchange" event to the select control and it’s handler method will update the C# property to the
+    value of the selected option of the select control.
+    <br>
+    @Text
+</div>
+<div class="form-group">
+    <label>Frameworks:</label>
+
+    @* value is default value
+    and every time we select other option onchange will be triggered and it upate new value for c# property*@
+    <select class="form-control" value="@Frameworks2" @onchange="UpdateFramework">
+        <option value="Select">Select</option>
+        <option>Blazor</option>
+        <option>ASP.NET Core</option>
+        <option>React</option>
+    </select>
+</div>
+<div class="p-2 mb-2">Framework's Value: @Frameworks2</div>
+<h5>
+    Blazor “@@bind” attribute
+
+</h5>
+<div>
+    The @@bind attribute can be applied to an html control and it directly provides Two Way Binding for the control.
+</div>
+<div>
+    The @@bind attribute specifies the property that will be updated when the change event of the control is triggered
+    and that will also update the value attribute of the control.
+</div>
+<b>Example (@Text)</b>
+<div class="form-group">
+    <label>Frameworks:</label>
+    @* Now we don't need onchange event anymore, we just apply @@bind attribute *@
+    <select class="form-control" @bind="Frameworks3">
+        <option value="Select">Select</option>
+        <option>Blazor</option>
+        <option>ASP.NET Core</option>
+        <option>React</option>
+    </select>
+</div>
+<div class="p-2 mb-2">Framework's Value: @Frameworks3</div>
+<h5>
+    @@bind and @@onchange cannot be used together
+</h5>
+<p>
+    Blazor prevents using @@bind and @@onchange attributes together.
+    Now Suppose you come up with a situation where there is @@bind attribute on a select element and
+    you also need to do some other task on the onchange event.
+    The work around for this is using setter of property
+</p>
+<b>Example (@Text)</b>
+
+@* when we select option @bind will call ChangeFramework and it will trigger setter *@
+@* and we do anything we want in this setter *@
+<select class="form-control" @bind="Frameworks4">
+    <option value="Select">Select</option>
+    <option>Blazor</option>
+    <option>ASP.NET Core</option>
+    <option>React</option>
+    <option>Help</option>
+</select>
+<div class="p-2 mb-2">Framework's Value: @Frameworks4</div>
+
+
+@code {
+    public string Text { get; set; } = "See in code to understand";
+
+    private string Frameworks { get; set; } = "ASP.NET Core";
+    private string Frameworks2 { get; set; } = "ASP.NET Core";
+    private string Frameworks3 { get; set; } = "ASP.NET Core";
+    private string _frameworks4 = "ASP.NET Core";
+
+
+    private void UpdateFramework(ChangeEventArgs e)
+    {
+        Frameworks2 = e.Value as string;
+    }
+
+    public string Frameworks4
+    {
+        get { return _frameworks4; }
+        set
+        {
+            _frameworks4 = value;
+
+            @* after setting value we do some stuff below here *@
+            //do something
+            Console.WriteLine("hello world!");
+        }
+    }
+}

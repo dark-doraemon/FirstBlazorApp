@@ -1,0 +1,71 @@
+﻿@inherits LayoutComponentBase
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-3">
+            <div class="sidebar p-3 mb-2 text-dark">
+                <ul class="nav flex-column">
+                    <li>
+                        <NavLink href="Iexample" Match="NavLinkMatch.All">
+                            Example event handler
+                        </NavLink>
+                    </li>
+
+                    <li>
+                        <NavLink href="defaultevent" Match="NavLinkMatch.All">
+                            Preventing Default Events
+                        </NavLink>
+                    </li>
+
+                    <li>
+                        <NavLink href="eventpropagation" Match="NavLinkMatch.All">
+                            Event Propagation
+                        </NavLink>
+                    </li>
+
+                    <li>
+                        <NavLink href="databindings" Match="NavLinkMatch.All">
+                            Data Bindings
+                        </NavLink>
+                    </li>
+
+                    <li>
+                        <NavLink href="defaultbinding" Match="NavLinkMatch.All">
+                            Changing the Default Binding Event – “@@bind-event”
+                        </NavLink>
+                    </li>
+
+                    <li>
+                        <NavLink href="datetimeformatted" Match="NavLinkMatch.All">
+                            DateTime formatted and Formatted values in Blazor
+                        </NavLink>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-sm-9">
+            @Body
+        </div>
+    </div>
+</div>
+
+<style>
+    .sidebar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 25%;
+        z-index: 1000;
+        overflow-y: auto;
+    }
+
+    .col-sm-9 {
+        margin-left: 25%;
+        /* This should match the sidebar width */
+    }
+
+    .active {
+        color: red;
+    }
+</style>
