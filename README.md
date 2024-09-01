@@ -48,11 +48,16 @@ Component Tag Helper ->  `<component type="typeof(NameOfComponent)" render-mode=
 Ở đây ta cần hiểu ra Razor pages là gì ?<br>
 * Razor page có đuôi là .cshtml
 * Razor page là một trang riêng hoàn toàn không liên quan gì tới các trang khác, và razor page là nơi đầu tiên gọi component, nó không phải là component
-* Vì Razor page là một trang riêng biệt bên môi file phải có `<!DOCTYPE html>` riêng
+* Vì Razor page là một trang riêng biệt nên mỗi file phải có `<!DOCTYPE html>` riêng
 * Vì mỗi trang có một `<!DOCTYPE html>` riêng nên khi sử dụng bootstrap ta phải khai báo lại link của bootstrap
+* Khi di chuyển từ một razor page sang một razor page khác thì nó sẽ chuyển sang một trang hoàn toàn mới không liên gì tới trang trước nữa (để ý nút reload xoay)
 > [!TIP]
-> Trong file _Host.cshmlt là một razor page 
+> Trong file _Host.cshtml là một razor page (giống với file index.html trong các front-end framework khác) <br>
+> Và _Host.cshtml gọi component App.razor bằng `<component type="typeof(App)" render-mode="ServerPrerendered" />` (giống với gọi App.jsx trong ReactJS) <br>
 
+See example in code -> Pages/Hello.cshtml
+
+>> 6. Component Parameters – Transferring values from Parent to Child component
 
 
 
