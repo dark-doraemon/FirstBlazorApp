@@ -18,6 +18,14 @@ It is not necessary to keep all the C# codes in the @code block. You can also ke
 
 Như đã biết trong razor component phần HTML dành cho UI và c# code cho xử lý logic <br>
 Khi blazor compile razor component nó sẽ chuyển thành partial class (1 class cho ui và 1 class cho logic) và tên của class được tạo ra cũng tên với tên file của component (partial class nghĩ là 1 class có thể code ở nhiều file khác nhau) <br>
-Do đó ta có thể sử dụng cơ chế này của blazor để tách ra thành 2 file riêng biệt với điều kiện file .razor.vs phải có partial (public partial class Count {})
+Do đó ta có thể sử dụng cơ chế này của blazor để tách ra thành 2 file riêng biệt với điều kiện file .razor.vs phải có partial (vd: public partial class Count {})
 
 See example in code -> Pages/Count/Count.razor and Count.razor.cs
+
+>> 3. How Blazor renders Razor Components
+
+Blazor keeps a track of the component on the server. When the component is initially rendered, the component’s render tree is formed by Blazor on the server. Now when this render tree is modified, due to events done by the user on the browser like button click, form submission, etc, then a new render tree is formed. Blazor then compares the new render tree against the previous one and applies any modifications to the browser’s Document Object Model (DOM).
+
+In simple terms, Blazor sends the changes to the browser using SignalR and user sees these changes instantly. Remember only the changes are sent to the browser and not the whole render tree. This is a very light weight process and this makes Blazor extremely fast.
+
+Cái này đọc để cho hiểu thôi, là Blazor sẽ theo dõi các component và tạo thành component’s render tree trên server và component’s render tree sẽ cũng được gửi tới browser. Khi component’s render tree ở browser bị thay đổi (như là click,...) thì nó sẽ gửi nhưng thay đổi cho server,server sẽ so sánh nhũng thay đổi, cuối cùng áp dụng lên những thay đổi lên DOM của browser
