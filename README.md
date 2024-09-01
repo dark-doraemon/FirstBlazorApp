@@ -46,7 +46,12 @@ A Razor Component can be called from a Razor Page or an MVC View by using the Co
 Component Tag Helper ->  `<component type="typeof(NameOfComponent)" render-mode="Server" />` <br>
 
 Ở đây ta cần hiểu ra Razor pages là gì ?<br>
-. Razor page là file của
+* Razor page có đuôi là .cshtml
+* Razor page là một trang riêng hoàn toàn không liên quan gì tới các trang khác, và razor page là nơi đầu tiên gọi component, nó không phải là component
+* Vì Razor page là một trang riêng biệt bên môi file phải có `<!DOCTYPE html>` riêng
+* Vì mỗi trang có một `<!DOCTYPE html>` riêng nên khi sử dụng bootstrap ta phải khai báo lại link của bootstrap
+> [!TIP]
+> Trong file _Host.cshmlt là một razor page 
 
 
 
