@@ -29,5 +29,23 @@ See example in code ->  Pages/EventPropagation.razor
 
 >> 4. Blazor Data Bindings
 
-See example in code ->  Pages/DataBinding.razor
+1. One way binding
+2. Two way binding
+
+See example in code ->  Pages/DataBinding.razo
+
+>> 5. Changing the Default Binding Event – “@bind-event”
+
+See example in code ->  Pages/DefaultBinding.razor
+
+>> 6. DateTime formatted and Formatted values in Blazor
+
+The values of the DateTime types can be shown in culture specific manner. They can also be formatted according your needs.
+
+See example in code ->  Pages/DateTimeFormatted.razor
+
+
+
+
+
 
