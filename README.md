@@ -16,4 +16,4 @@ git checkout -b 1-Create-First-Project-And-Some-Basic-Concepts && git pull
 
 ## Cách sử dụng project 
 
-Tại mỗi nhánh sẽ có một file readme.md riêng, file này giới thiệu về bài học, nhưng phần chúng ta sẽ học ở nhánh này, giới thiệu mỗi phần sẽ làm cái gì, tại mỗi phần sẽ có hướng dẫn tới file ví dụ và trong file ví dụ cũng sẽ những comment giải thich code. File này rất quan trọng, khi xem project bắt buộc phải mở file này và phải kết hợp file readme.md và xem code trong dự án để hiểu được code đang dùng để làm gì
+Tại mỗi nhánh sẽ có một file readme.md riêng, file này giới thiệu về bài học, những phần chúng ta sẽ học ở nhánh này, giới thiệu mỗi phần sẽ làm cái gì, tại mỗi phần sẽ có hướng dẫn tới file ví dụ và trong file ví dụ cũng sẽ những comment giải thich code. File này rất quan trọng, khi xem project bắt buộc phải mở file này và phải kết hợp file readme.md và xem code trong dự án để hiểu được code đang dùng để làm gì
