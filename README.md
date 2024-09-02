@@ -8,7 +8,7 @@ And `dotnet run` to start up project
 
 ### How to create project from scratch ?
 
-Make you have basic understand about .NET and type `dotnet --list-sdks` to make sure to have dotnet sdks
+Make you have basic understand about .NET and type `dotnet --list-sdks` to make sure you have dotnet sdks
 
 > [!NOTE]
 > We are going to create project by `VS code` by command line, you can use IDE(if you're familar with command line) but create project by command line is a good practice that you should know
