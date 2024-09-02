@@ -86,7 +86,38 @@ See example in -> Pages/City2.razor and CitySelection2.razor
 >> 9. Blazor Route Parameters
 
 A Route Parameter is provided in the URL by wrapping it inside braces. It is specified in the Razor Component @page directive. <br>
-Example: `@page "/Tech/{Framework?}"`
+Example: `@page "/Tech/{Framework?}"` <br>
+The “?” at the end of route parameter specify that the parameter accepts null value
+
+`Here Framework is the Route Parameter`. You can get the value of the route parameter by specifying a property by the same name as the route parameter and having [Parameter] attribute over it. <br>
+Tóm lại là để lấy route parameter thì ta tạo ra một thuộc tính cùng tên với route parameter và có [Parameter] attribute ở trên nó
+```
+[Parameter]
+public string Framework { get; set; }
+```
+
+
+We can have more than 1 route parameters.
+```
+@page "/Tech/{Company}/{Framework?}"
+```
+Route Constraints
+```
+@page "/Tech/{Company}/{Framework:int}"
+```
+Framework chỉ nhận các giá trị kiểu int do đó ta phải update c# code Framework là kiểu int <br>
+
+Some example of Route Constraints: <br>
+| Constraint	   | Example         | Comments                                                                         |
+| ------------- | ----------------|----------------------------------------------------------------------------------|
+| bool          | {active:bool}   |active value should be either true or false.                                      |
+| datetime      | {cur:datetime}  |cur value should be in date time format. Examples – 2021-10-31, 2022-11-20 4:32am |
+| decimal       | {price:decimal} |Example – 100.33                                                                  |
+| float         | {sum:float}     |Example – 61.984                                                                  |
+| int           | {id:int}        |Example of id – 1000                                                              |
+| long          | {average:long}  |Example of average – 98957875748697                                               |
+
+
 
 
 
