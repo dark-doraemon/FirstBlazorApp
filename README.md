@@ -1,4 +1,4 @@
-[## Introduction
+## Introduction
 Blazor App is created with components and these components are built in Razor Components File. Razor components files can be created in Visual Studio and have a .razor extension. Note that the term Blazor Component is same as Razor Component.<br>
 Chú ý là Blazor App được tạo bởi Razor component, file có đuôi .razor chứ không phải .blazor
 
@@ -191,10 +191,4 @@ See example in -> Pages/ChildComponent.razor - line 32 and TempComponent2.razor
 
 Let us now see how to transfer values from Child Razor Component to Parent Razor Component in Blazor. <br>
 To do this, we will create this feature by creating a custom event `in the child component` and parent component can register a handler method <br>
- This custom event is defined by adding a property whose type is EventCallback<T>. 
-
-
-
-
-
-](url)
+This custom event is defined by adding a property whose type is EventCallback<T>. 
