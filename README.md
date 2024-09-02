@@ -32,7 +32,7 @@ See example in code ->  Pages/EventPropagation.razor
 1. One way binding
 2. Two way binding
 
-See example in code ->  Pages/DataBinding.razo
+See example in code ->  Pages/DataBinding.razor
 
 >> 5. Changing the Default Binding Event – “@bind-event”
 
