@@ -17,6 +17,6 @@ Make you have basic understand about .NET and type `dotnet --list-sdks` to make 
 Steps: <br>
 1. Select location that you will place your project 
 2. Type `dotnet new sln`, it will create a solution file which has the same name as the folder that contains it
-3. Enter `dotnet new web -n NameOfYourProject --use-program-main`, it will create project named NameOfYourProject, `--use-program-main` is a option to remove top-level statement, or you can use `dotnet new web` 
+3. Enter `dotnet new web -n NameOfYourProject --use-program-main`, it will create project named NameOfYourProject, `--use-program-main` is a option to remove top-level statement, or you can use `dotnet new web`for short but you will use default project name and use top-level statement
 4. Add you project to solution file,if you do that you can use `SOLUTION EXPLORER` which has features like IDE or you can skip, use `dotnet sln add *.csproj`, your *.csproj file denpends on how you name your project
 5. Finally, add some files and code like my project or you can visit this [link](https://www.yogihosting.com/blazor-first-application/) to have more details
