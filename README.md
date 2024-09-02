@@ -69,6 +69,18 @@ Nghĩa là ta có thể truyền value từ razor page cho component chứ khôn
 
 See example in -> Pages/Hello.cshtml
 
+>> 8. Transfer bulk values with “CaptureUnmatchedValues” property
+
+A single property can receive multiple values that have not been matched by other properties. Let us understand how to do it.<br>
+Có nghĩa là 1 property có thể nhận được nhiều value cũng lúc, chứ không nhất thiết 1 property chỉ chứa 1 value <br>
+Chúng ta làm bằng cách tạo ra một property có dạng giống vậy <br>
+```
+[Parameter(CaptureUnmatchedValues = true)]
+public Dictionary<string, object> InputAttributes { get; set; }
+```
+Dictionary là CTDL dạng key value nên ta có thể đặt từ key lấy ra value
+
+See example in -> Pages/City2.razor and CitySelection2.razor 
 
 
 
