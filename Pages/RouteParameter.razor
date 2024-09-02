@@ -1,0 +1,53 @@
+﻿@page "/tech/{Framework?}"
+
+
+@* We can have more than 1 route parameters. *@
+@page "/Tech/{Company}/{Framework?}"
+
+
+@* parameter only gets int type *@
+@page "/Tech/{Number:int}"
+
+
+@* Catch all parameters *@
+@page "/Catch/{*AllCatch}"
+
+<div>
+    <b>
+        Open code in Pages/RouteParameter.razor to understand what did
+
+    </b>
+</div>
+
+
+<h1>Technology is @Framework @Company !</h1>
+<h1>@Number</h1>
+<h1>
+    @AllCatch
+</h1>
+<div>
+    It depends on what you type
+</div>
+<img src="assets/p1.png" alt="Description of the image" width=1000 height=500 />
+<img src="assets/p2.png" alt="Description of the image" width=1000 height=500 />
+<img src="assets/p3.png" alt="Description of the image" width=1000 height=500 />
+
+<h1>
+    Catch all
+</h1>
+<img src="assets/p4.png" alt="Description of the image" width=1000 height=500 />
+
+
+@code {
+    [Parameter]
+    public string Framework { get; set; }
+
+    [Parameter]
+    public string Company { get; set; }
+
+    [Parameter]
+    public int Number { get; set; }
+
+    [Parameter]
+    public string AllCatch { get; set; }
+}

@@ -1,0 +1,40 @@
+﻿@page "/childcontent"
+
+
+<h1>ChildConent</h1>
+<b>Open code to understand what i did </b> <br>
+<b>Pages/ChildContent.razor and TempComponent.razor</b>
+
+<TempComponent>
+    @* Place data between opening and closing tag and it will pass for TempComponent *@
+    <div>
+        Some content here
+    </div>
+
+    <div>
+        Pass any data you want
+    </div>
+
+    <div>
+        Even a component
+    </div>
+
+    <CitySelection />
+
+</TempComponent>
+
+
+
+<h1>Multiple ChildContent</h1>
+<b>Open code to understand what i did </b> <br>
+<b>Pages/ChildContent.razor - line 32 and TempComponent2.razor</b>
+
+<TempComponent2>
+
+    @* Note that Description, Weather, Elevation are not component, we can call them are nodes,they belong to TempComponent2*@
+    @* Each node represent for each ChildContent Property*@
+    @* Open TempComponent2.razor and you will see these properties, at line 10 *@
+    <Description><label>Commercial capital of India</label></Description>
+    <Weather>Moderate and Humid</Weather>
+    <Elevation>14 m</Elevation>
+</TempComponent2>

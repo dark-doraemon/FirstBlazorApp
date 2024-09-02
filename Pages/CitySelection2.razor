@@ -1,0 +1,27 @@
+﻿@page "/cityselection2"
+
+@* từ InputAttributes sử dụng key để trích xuất value, key phụ thuộc vào component cha đặt tên là gì *@
+<div class="form-group p-2 @InputAttributes["bg"]" >
+    <label for="city">City</label>
+    <select name="city" class="form-control">
+        <option disabled selected>Select City</option>
+        @foreach (string city in Cities)
+        {
+            @* từ InputAttributes sử dụng key để trích xuất value *@
+            <option value="@city" selected="@(city == (string)InputAttributes["city"])">
+                @city
+            </option>
+        }
+    </select>
+</div>
+
+@code {
+    public string[] Cities = new string[] { "Washington DC", "New Delhi", "Mumbai" };
+
+
+    @* The CaptureUnmatchedValues property on [Parameter] allows the parameter to match all attributes that don’t match any other parameter. *@
+    @* Có nghĩa là nếu component được cung cấp các propery mà component không có thì không sao cả, 
+    tại vì InputAttributes sẽ lấy hết các thuộc tính đó và lưu trong Dictionary *@
+    [Parameter(CaptureUnmatchedValues = true)]
+    public Dictionary<string, object> InputAttributes { get; set; }
+}

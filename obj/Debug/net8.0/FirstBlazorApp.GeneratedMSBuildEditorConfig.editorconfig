@@ -22,16 +22,36 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/counterlogic/DOTNET/FirstBlazorApp/Pages/ChildContent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2hpbGRDb250ZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/counterlogic/DOTNET/FirstBlazorApp/Pages/City.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2l0eS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/counterlogic/DOTNET/FirstBlazorApp/Pages/City2.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2l0eTIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/counterlogic/DOTNET/FirstBlazorApp/Pages/CitySelection.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2l0eVNlbGVjdGlvbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/counterlogic/DOTNET/FirstBlazorApp/Pages/CitySelection2.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2l0eVNlbGVjdGlvbjIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/counterlogic/DOTNET/FirstBlazorApp/Pages/CitySelection3.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2l0eVNlbGVjdGlvbjMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/counterlogic/DOTNET/FirstBlazorApp/Pages/Count/Count.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnQvQ291bnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/counterlogic/DOTNET/FirstBlazorApp/Pages/DataFromChildToParent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRGF0YUZyb21DaGlsZFRvUGFyZW50LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/counterlogic/DOTNET/FirstBlazorApp/Pages/Iexample.razor]
@@ -44,6 +64,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/home/counterlogic/DOTNET/FirstBlazorApp/Pages/PassingData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGFzc2luZ0RhdGEucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/counterlogic/DOTNET/FirstBlazorApp/Pages/RouteParameter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUm91dGVQYXJhbWV0ZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/counterlogic/DOTNET/FirstBlazorApp/Pages/TempComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVGVtcENvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/counterlogic/DOTNET/FirstBlazorApp/Pages/TempComponent2.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVGVtcENvbXBvbmVudDIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/counterlogic/DOTNET/FirstBlazorApp/Shared/MainLayout.razor]

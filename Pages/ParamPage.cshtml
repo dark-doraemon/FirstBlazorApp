@@ -16,18 +16,16 @@
 </head>
 
 <body>
-    <div>Open code in Page/ParamPage.cshmlt to understand what i did</div>
+    <b>Open code in -> Page/ParamPage.cshtml to understand what i did</b>
     
+    @* Chúng ta không chỉ có thể truyền data từ component cha cho component con mà còn có thể từ razor page cho component *@
+
     @* using param-NameOfAtrribute = "@("value")" to pass data to component *@
     <component type="typeof(CitySelection)" render-mode="Server" param-MyCity="@("Mumbai")" param-MyBackground="@("bg-warning")"/>
     <div>
         This is a razor page named Hello.cshtml not a component
     </div>
 
-    @* The script element specifies the name of the JavaScript file that establishes the SignalR connection with the server. *@
-    @* Note that you “don’t” have to add this JavaScript file to the project as it will be done automatically by Blazor.*@
-    @* Script này dùng để thiết lập kết nối SingnalR từ browser tới server, nhiệm vụ của kết nối này là nếu server thay đổi gì thì nó sẽ gửi về cho browser *@
-    @* Thẻ script này không cần thêm cũng được mặc định Blazor sẽ thêm vào cho chúng ta *@
     <script src="_framework/blazor.server.js"></script>
 </body>
 

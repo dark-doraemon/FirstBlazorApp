@@ -1,6 +1,22 @@
 {
   "Files": [
     {
+      "Id": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/assets/p1.png",
+      "PackagePath": "staticwebassets/assets/p1.png"
+    },
+    {
+      "Id": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/assets/p2.png",
+      "PackagePath": "staticwebassets/assets/p2.png"
+    },
+    {
+      "Id": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/assets/p3.png",
+      "PackagePath": "staticwebassets/assets/p3.png"
+    },
+    {
+      "Id": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/assets/p4.png",
+      "PackagePath": "staticwebassets/assets/p4.png"
+    },
+    {
       "Id": "/home/counterlogic/DOTNET/FirstBlazorApp/wwwroot/lib/bootstrap/css/bootstrap-grid.css",
       "PackagePath": "staticwebassets/lib/bootstrap/css/bootstrap-grid.css"
     },

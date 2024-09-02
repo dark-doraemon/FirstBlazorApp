@@ -1,0 +1,28 @@
+﻿<div>
+    @ChildContent
+</div>
+
+
+<div class="panel-body">@Description</div>
+<div class="panel-body">@Weather</div>
+<div class="panel-body">@Elevation</div>
+
+
+@code {
+
+    @* These properties receive value from outside *@
+    [Parameter]
+    public RenderFragment ChildContent { get; set; }
+
+
+    
+    [Parameter]
+    public RenderFragment Description { get; set; }
+
+    [Parameter]
+    public RenderFragment Weather { get; set; }
+
+    [Parameter]
+    public RenderFragment Elevation { get; set; }
+
+}

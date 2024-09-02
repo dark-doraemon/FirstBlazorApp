@@ -1,0 +1,24 @@
+﻿@page "/dataformchild"
+
+
+
+@* In this component we need to get value from CitySelection3 *@
+<b>
+    Open code in Pages/DataFromChildToParent.razor and SelectionCity3.razor to understand what i did
+</b>
+
+<div>
+    @SelectedValue
+</div>
+
+@* sử dụng GetValueFormChildComponent để đăng kí cho myCustomEvent *@
+<CitySelection3 myCustomEvent="GetValueFormChildComponent" />
+
+@code {
+    public string SelectedValue { get; set; }
+
+    public void GetValueFormChildComponent(string newValue)
+    {
+        SelectedValue = newValue;
+    }
+}

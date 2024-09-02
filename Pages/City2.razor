@@ -1,0 +1,31 @@
+﻿@page "/city2"
+<h3 class="bg-info text-white">Select Your City</h3>
+
+
+<b>Open code in -> Page/City2.razor and CitySlection2.razor to understand what i did</b>
+
+@* Chúng ta có thể truyền nhiều data cho component con, dù component con chỉ có một thuộc tính *@
+
+@* ở đây city và bg là các thuộc tính tự tạo, nó không được định nghĩa trong CitySelection2 nhưng không sao cả
+Vì bên trong CitySelection2 có một thuộc tính đặc biệt nó có thể lấy hết được các thuộc tính tính này
+thuộc tính này là
+[Parameter(CaptureUnmatchedValues = true)]
+public Dictionary<string, object> InputAttributes { get; set; }
+
+InputAttributes sẽ lấy city và bg và lưu trong Dictionary 
+nó sẽ lưu giống vậy
+{
+    {"city","New Delhi"}, key-value
+    {"bg", "bg-warning"}, key-value
+} 
+    Ta chỉ cần có key là lấy được value, InputAttributes["city"] = New Delhi
+*@
+
+<CitySelection2 city="New Delhi" bg="bg-warning"/>
+@* Open CitySelection2.razor to understand more *@
+
+
+
+<div>
+    Or open code in project to understand what i did
+</div>

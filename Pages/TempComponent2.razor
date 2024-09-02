@@ -1,0 +1,18 @@
+﻿
+
+<div class="panel-body">@Description</div>
+<div class="panel-body">@Weather</div>
+<div class="panel-body">@Elevation</div>
+
+
+@code {
+    @* These properties will automatically receive the values of the respective nodes.  *@
+    [Parameter]
+    public RenderFragment Description { get; set; }
+ 
+    [Parameter]
+    public RenderFragment Weather { get; set; }
+ 
+    [Parameter]
+    public RenderFragment Elevation { get; set; }
+}

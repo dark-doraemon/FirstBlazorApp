@@ -1,12 +1,15 @@
 ﻿@page "/passingdata"
 
 <b>See in code to understand what i did</b>
+<b>->Pages/PassingData.razor</b>
 
 <div>
     <h3 class="bg-info text-white">Select Your City</h3>
 
 
-    @* MyCity and MyBackground are custom attribute open CitySelection.razor to understand how to create them *@
+    @* MyCity and MyBackground are custom attribute 
+    We using them to pass data to child component
+    open CitySelection.razor to understand how to create them *@
     <CitySelection MyCity="New Delhi" MyBackground="bg-warning"/>
 </div>
 
