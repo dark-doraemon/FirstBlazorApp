@@ -1,6 +1,11 @@
 ﻿@page "/defaultevent"
 
 
+<b>
+    See example in code -> Pages/DefaultEvent.razor
+</b>
+
+
 <h3 class="bg-secondary text-white">@Counter</h3>
 <form>
     <div class="form-group">
@@ -14,7 +19,7 @@
         Vì vậy phần này sẽ hướng dẫn cách xử lý sự kiện mặc định này         *@
         <button class="form-control" @onclick="IncreaseCounter">Increase Counter</button>
         <br/>
-        The solution of this problem is by adding the preventDefault parameter with the onclick event and set it’s value to “true” (@@onclick:preventDefault) (see in code to understand) <br/>
+        The solution of this problem is by adding the preventDefault parameter with the onclick event (@@onclick:preventDefault) (see in code to understand) <br/>
 
         This button below will work
         <button class="form-control" @onclick="IncreaseCounter" @onclick:preventDefault>Increase Counter</button>

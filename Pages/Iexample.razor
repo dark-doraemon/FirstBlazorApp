@@ -1,8 +1,11 @@
 ﻿@page "/Iexample"
  
-<h1>Example basic event handler @StaticMessage</h1>
+<h1>Example basic event handler @StaticMessage </h1>
+<b>
+    Pages/Iexample.razor-line 8->16
+</b>
+
 <h3 class="bg-secondary text-white">@MyName</h3>
- 
 <div class="form-group">
     <label>Name:</label>
     <input type="text" class="form-control" @onchange="Name"/> @* @onchange event of Blazor *@
@@ -10,15 +13,18 @@
     @* if user types anything on the text box and lose focuse on textbox => Blazor onchange event is triggered *@
 
     <button class="btn btn-primary">Enter</button>
-
 </div>
 
 
 
 <hr class="my-4" style="height: 5px; background-color: black; border: none;">
 <h1>Single Handler method @StaticMessage</h1>
+<b>
+    Pages/Iexample.razor-line 25->40
+</b>
 <div class="form-group">
     <label>First Name</label>
+
     @* To avoid code duplication,use Single Handler method  *@
     <input type="text" class="form-control" @onchange="@(e => Name2(e,null))"/> 
     <label>Last Name</label>
@@ -36,6 +42,9 @@
 
 <hr class="my-4" style="height: 5px; background-color: black; border: none;">
 <h1>Using onchange without EventArgs object @StaticMessage</h1>
+<b>
+    Pages/Iexample.razor-line 48->54
+</b>
 <div>
     @Text
 </div>
@@ -49,6 +58,9 @@
 
 <hr class="my-4" style="height: 5px; background-color: black; border: none;">
 <h1>Events without Handler method @StaticMessage</h1>
+<b>
+    Pages/Iexample.razor-line 64->70
+</b>
 @* You can also process events without using hander method, this is done by using Lambda function.  *@
 <div class="form-group">
     <label>Message:</label>
@@ -61,6 +73,9 @@
 
 <hr class="my-4" style="height: 5px; background-color: black; border: none;">
 <h1>Example: Select “onchange” event @StaticMessage </h1>
+<b>
+    Pages/Iexample.razor-line 79->90
+</b>
 <h3 class="bg-secondary text-white">@MyOption</h3>
 <div class="form-group">
     <label>Name:</label>
@@ -78,6 +93,9 @@
 
 <hr class="my-4" style="height: 5px; background-color: black; border: none;">
 <h1>Example: Checkbox “onchange” event @StaticMessage </h1>
+<b>
+    Pages/Iexample.razor-line 99->105
+</b>
 <h3 class="bg-secondary text-white">@AgreeValue</h3>
 <div class="form-group">
     <label>Agree to terms:</label>
@@ -90,10 +108,13 @@
 
 <hr class="my-4" style="height: 5px; background-color: black; border: none;">
 <h1>Example: Radio Button “onchange” event @StaticMessage</h1>
+<b>
+    Pages/Iexample.razor-line 115->122
+</b>
+
 @* Radio buttons can be used with Blazor "onchange" event to find out the user’s selection.  *@
 @* Note that the name of the radio buttons should be made same cause it is rule (here I have given them the same name “sex”). *@
 <h3 class="bg-secondary text-white">@SexValue</h3>
-
 <div class="form-group">
     <label>Select sex:</label>
     <input type="radio" name="sex" value="Male" @onchange="SelectSex" />Male

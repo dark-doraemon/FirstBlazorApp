@@ -1,6 +1,9 @@
 ﻿@page "/eventpropagation"
 
-@page "/Iexample7"
+
+<b>
+    See example in code -> Pages/EventPropagation.razor
+</b>
 <h3 class="bg-secondary text-white">@Message1</h3>
 <h3 class="bg-secondary text-white">@Message2</h3>
 <div class="form-group" @onclick="@(() => Message1="Hello Google")">
@@ -13,8 +16,8 @@
     If we click on "Click on this text", it only call one onclick event <br>
     If we click on button "Show Message", it will call two onclick events (event propagation) <br>
     Note that event propagation happens from child till to root element of the DOM tree.
-    So if we have more elements in the hierarchy then their events are also called. Nghĩa là nếu có nhiều thẻ (có sự
-    kiện onclick) lồng nhau
+    So if we have more elements in the hierarchy then their events are also called <br>
+    Nghĩa là nếu có nhiều thẻ (có sự kiện onclick) lồng nhau
     thì nó sẽ gọi hết và gọi từ thẻ con -> thẻ cha
     <br>
     The solution of this problem is by using stopPropagation parameter with the onclick event and set it to “true”.

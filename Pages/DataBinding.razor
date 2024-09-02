@@ -1,5 +1,10 @@
 ﻿@page "/databindings"
 
+<b>
+    See example in code -> Pages/DataBinding.razor
+</b>
+
+
 <h1>One Way Binding in Blazor</h1>
 <div>
     <h1>
@@ -7,7 +12,11 @@
         <input class="form-control" value="@Text" />
     </h1>
 </div>
-
+<div>
+    <b>
+        Pages/DataBinding.razor-line 8->14
+    </b>
+</div>
 
 
 <hr class="my-4" style="height: 5px; background-color: black; border: none;">
@@ -35,8 +44,15 @@
         <li>Select control is not able to change the value of this C# property.</li>
     </ol>
 </div>
+<div>
+    <b>
+        Pages/DataBinding.razor-line 22->46
+    </b>
+</div>
 
 
+
+<hr class="my-4" style="height: 5px; background-color: black; border: none;">
 <h1>Two Way Binding in Blazor</h1>
 <div>
     Now I will update the code to create Two Way Binding in Blazor.
@@ -44,6 +60,11 @@
     value of the selected option of the select control.
     <br>
     @Text
+</div>
+<div>
+    <b>
+        Pages/DataBinding.razor-line 69->81
+    </b>
 </div>
 <div class="form-group">
     <label>Frameworks:</label>
@@ -58,10 +79,14 @@
     </select>
 </div>
 <div class="p-2 mb-2">Framework's Value: @Frameworks2</div>
-<h5>
-    Blazor “@@bind” attribute
 
+
+
+<h5>
+    Blazor “@@bind” attribute | Example -> Pages/DataBinding.razor-line 90->107
 </h5>
+
+
 <div>
     The @@bind attribute can be applied to an html control and it directly provides Two Way Binding for the control.
 </div>
@@ -80,9 +105,12 @@
         <option>React</option>
     </select>
 </div>
+
+
+
 <div class="p-2 mb-2">Framework's Value: @Frameworks3</div>
 <h5>
-    @@bind and @@onchange cannot be used together
+    @@bind and @@onchange cannot be used together | Example -> Pages/DataBinding.razor-line 127->134
 </h5>
 <p>
     Blazor prevents using @@bind and @@onchange attributes together.
@@ -94,6 +122,8 @@
 
 @* when we select option @bind will call ChangeFramework and it will trigger setter *@
 @* and we do anything we want in this setter *@
+@* Có nghĩa là @bind và @onchange không được sử dụng cùng lúc trong Blazor, nhưng sẽ có tình muốn ta muốn sử dụng onchange và bind 
+cùng lúc thì cách giải quyết là sử dụng thông qua setter của thuộc tính bị bind ở đây là Frameworks4*@
 <select class="form-control" @bind="Frameworks4">
     <option value="Select">Select</option>
     <option>Blazor</option>

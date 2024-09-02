@@ -2,6 +2,9 @@
 <h1>
     Changing the Default Binding Event – “@@bind-event”
 </h1>
+<b>
+    See example in code -> Pages/DefaultBinding.razor
+</b>
 <p>
     By default, the onchange event is used in bindings.
     This means when you apply @@bind attribute to an input type text element then the bindings will work only when the
@@ -43,11 +46,6 @@ và cập nhật value ngay lập tức*@
 <input type="text" class="form-control" @bind="President2" @bind:event="oninput"/> 
 <div class="p-2 mb-2">President is: @President2</div>
 
-
-
-<h1>
-    Showing DateTime with Culture specific and Formatted values in Blazor
-</h1>
 
 @code
 {
