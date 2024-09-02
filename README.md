@@ -1,7 +1,7 @@
 ## Introduction
 
 In this lesson, you will learn how to create `Blazor Server` project from empty project because if you create project from scratch, you will clearly understand the structure of project <br>
-When you understand project's structure, you can use avaiable blazor template <br>
+When you understand project's structure, you can use available blazor template <br>
 I commented code in project, all you need to do is open and read it from this branch <br>
 Some files you should read -> `Program.cs -> Pages/_Host.cshtml -> App.razor -> Shared/MainLayout.razor -> Shared/MyNav.razor`
 And `dotnet run` to start up project
