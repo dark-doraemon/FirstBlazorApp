@@ -1,4 +1,4 @@
-﻿@* the layout must inherit from the LayoutComponentBase *@
+﻿@* the layout "must" inherit from the LayoutComponentBase *@
 @inherits LayoutComponentBase
 
 
@@ -14,12 +14,16 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-sm-3">
+
+            @* MyNav component, you will learn how to create in next lesson *@
             <MyNav />
         </div>
 
         <div class="col-sm-9">
             <h1>↓ @@Body below ↓</h1>
             @Body @* specifies the location in the layout where the component’s content is rendered. *@
+            @* Nghĩa là @Body là nơi component sẽ được render *@
+            @* Nó giống routerlink trong ReactJS *@
 
             @* Luồng của chương trình sẽ là từ _Host.cshtml -> gọi component App -> App sẽ kiểm tra route xem có hợp lệ không
             -> Nếu hợp lệ thì chọn Layout để render (chính là file này) *@

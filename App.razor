@@ -6,10 +6,11 @@
 @* Router, Found, NotFound, RouteView etc are all Blazor in-built components *@
 @* First, we need to specify the name of the ".NET AppAssembly" to use which in most cases is the current assembly("App" because this file named App.razor): *@
 <Router AppAssembly="@typeof(App).Assembly">
-    @* In the Found section provide the contents to display when the match to the requested route (i.e. URL) is found *@
+
+
+    @* In the Found section provide the contents to display when the match to the requested route is found *@
     @* nghĩa là nếu component có URL giống với URL được request thì component đó sẽ render, ngược lại nó sẽ render Not Found *@
     @* và nó sẽ lấy nội dụng của component đó render trong MainLayout *@
-
     @* khi Found thì dữ liệu sẽ được gán vào 1 biến, ta đặt tên là routeData 
     @* routeData này sẽ dược dùng để làm dữ liệu cho RouteView *@
     <Found Context="routeData">
@@ -27,3 +28,6 @@
         </LayoutView>
     </NotFound>
 </Router>
+
+
+@* Nói chung file App.razor code mặc định của nó là như vậy, mục đích chính của nó chọn Layout để render *@

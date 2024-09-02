@@ -1,6 +1,6 @@
 ﻿@* -------------------------------------
 
-EXPLAINATION about NavLink - this is a buil-in component
+EXPLAINATION about "NavLink" - this is a buil-in component
 
 ------------------------------------- *@
 
@@ -11,7 +11,7 @@ EXPLAINATION about NavLink - this is a buil-in component
  With this, you can assign a color to this active class and app users will know which URL they are currently in. *@
 @* Nghĩa là nếu sử dụng NavLink component thì nó tự biến thành thẻ a (cái này bình thường không có gì, các front-end framework khác cũng vậy)
 nhưng nó sẽ tự động thêm class có tên là "active" dù ta không có class active, 
-và ta có thể css class này để ngưởi dùng biết rằng mình đã click vào link này *@
+và ta có thể css class này để người dùng biết rằng mình có phải đang link này không *@
 
 @* và ta sử dụng NavLink thay vì thẻ a thì sẽ không bị reload *@
 
@@ -42,7 +42,7 @@ và ta có thể css class này để ngưởi dùng biết rằng mình đã cl
     <ul class="nav flex-column">
         <li class="nav-item px-3">
 
-            @* link to Index component or without nay component *@
+            @* link to Index component or without any component *@
             <NavLink href="/" Match="NavLinkMatch.All"> @* Match attribute -> The NavLink is active when the entire current URL matches *@
                 Index
             </NavLink>
@@ -54,9 +54,10 @@ và ta có thể css class này để ngưởi dùng biết rằng mình đã cl
         @* NavLink is active when any "prefix" of Current URL is matched *@
         @* For example *@
         <li class="nav-item px-3">
+
             @* link to City component *@
-            @* if users request to this url https://localhost:5156/City or https://localhost:5156/City/NYC *@
-            @* It will be the same  *@
+            @* if users request to this url https://localhost:5156/City or https://localhost:5156/City/NYC, they are the same *@
+            
             <NavLink href="/City"> 
                 City
             </NavLink>
@@ -102,7 +103,7 @@ trong hàm NavigateUser sẽ xử lí logic gì đó và nó sử dụng clas Na
     }
 }
 
-@* Some useful NavigationManager propertíes and methods *@
+@* Some useful NavigationManager propertíes and methods (cái này khỏi đọc cũng được, cũng không có nhớ đâu =)) *@
 @* Uri : This property returns the current URL. *@
 
 @* LocationChanged : This is an event which is triggered when the location changes.  *@

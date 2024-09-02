@@ -15,8 +15,8 @@ The code is an HTML Page with "razor" mark-up *@
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 
 
-@* Note that it forms the top level html tags of the html page like DOCTYPE, head, body, etc. *@
-@* nghĩa là đây chính là trang html tổng vì nó có DOCTYPE,... *@
+@* Đây chính là trang html tổng vì nó có DOCTYPE,... *@
+@* Nó giống với index.html trong các front-end framework khác *@
 <!DOCTYPE html>
 <html lang="en">
 
@@ -30,13 +30,15 @@ The code is an HTML Page with "razor" mark-up *@
     @* HeadOutlet renders content provided by PageTitle and HeadContent components. *@
     @* In short, it will help to set the page titles, metas, etc on the html head section for different razor components. *@
     <component type="typeof(HeadOutlet)" render-mode="ServerPrerendered" />
+
     @* ServerPrerendered It tells to render the component into static HTML and includes a marker for a Blazor server-side application *@
     @* The HTML content of the component is sent again over the persistent HTTP connection. *@
-
     @* nói tóm lại mode ServerPrerendered thực hiện 2 hành động
     1 : Nó sẽ render các component thành HTML tĩnh và gửi đến browser
     2 : Sao khi HTML tĩnh được gửi đến browser thì Blazor tiếp tục thực hiện 1 kết nối SignalR từ browser -> server
-        Múc đích của bước thứ 2 là để kích hoạt các chức năng để tường tác (vd: xử lý sự kiện khi click) *@
+        Mục đích của bước thứ 2 là để kích hoạt các chức năng để tường tác (vd: xử lý sự kiện khi click) *@
+
+
     <link href="~/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 </head>
 <body>
@@ -45,7 +47,10 @@ The code is an HTML Page with "razor" mark-up *@
     <div class="m-1 p-1">
         <h1>Hello World!</h1>
         
+
         @* Call the component we want to render, which is App *@
+        @* Trong _Host.cshtml gọi App component, giống như front-end _framework khác *@
+        @* Vd trong ReactJS trong index.html gọi App component *@
         <component type="typeof(App)" render-mode="ServerPrerendered" />
     </div>
 
