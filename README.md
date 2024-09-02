@@ -56,5 +56,20 @@ See example in code -> Pages/Hello.cshtml
 
 >> 6. Component Parameters – Transferring values from Parent to Child component
 
+In blazor, components not only are used for display but also interact with each other <br>
+To do that, we need to pass data between them
+
+See example in -> Pages/PasingData.razor
+
+>> 7. Using Component Parameters to transfer values from Razor Pages or MVC Views
+
+When you want to send values to Component Parameters through Razor pages or MVC views than you need to add “param-” before the attribute name. <br>
+Nghĩa là ta có thể truyền value từ razor page cho component chứ không chỉ là từ component cha truyền data cho component con
+ `<component type="typeof(CitySelection)" render-mode="Server" param-MyCity="@("Mumbai")" param-MyBackground="@("bg-warning")"/>` \
+
+See example in -> Pages/Hello.cshtml
+
+
+
 
 
