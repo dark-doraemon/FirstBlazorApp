@@ -182,7 +182,10 @@ Trong TempComponent2
     [Parameter]
     public RenderFragment Elevation { get; set; }
 }
-``
+```
+Do đó nó có thể biết được data thuộc về ChildContent property nào
+
+See example in -> Pages/ChildComponent.razor - line 32 and TempComponent2.razor
 
 
 
