@@ -119,6 +119,24 @@ Some example of Route Constraints: <br>
 
 
 
+> Catch-all route parameters
+
+You can also catch all route parameters with just a single C# property. To do so apply * in front of route parameter. <br>
+Ex – @page "/Catch/{*AllCatch}". So now any number of route parameters will be caught by the “AllCatch” route parameter.
+```
+@page "/Catch/{*AllCatch}"
+ 
+<h1 class="bg-info text-white">@AllCatch</h1>
+ 
+@code {
+    [Parameter]
+    public string AllCatch { get; set; }
+}
+```
+
+> “ChildContent” Property
+
+
 
 
 
