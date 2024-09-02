@@ -83,5 +83,11 @@ Dictionary là CTDL dạng key value nên ta có thể đặt từ key lấy ra 
 See example in -> Pages/City2.razor and CitySelection2.razor 
 
 
+>> 9. Blazor Route Parameters
+
+A Route Parameter is provided in the URL by wrapping it inside braces. It is specified in the Razor Component @page directive. <br>
+Example: `@page "/Tech/{Framework?}"`
+
+
 
 
