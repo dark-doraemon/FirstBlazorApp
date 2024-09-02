@@ -1,0 +1,42 @@
+﻿@inherits LayoutComponentBase
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-3">
+            <div class="sidebar p-3 mb-2 text-dark">
+                <ul class="nav flex-column">
+                    <li>
+                        <NavLink href="/" Match="NavLinkMatch.All">
+                            1. 
+                        </NavLink>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="col-sm-9">
+            @Body
+        </div>
+    </div>
+</div>
+
+<style>
+    .sidebar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 25%;
+        z-index: 1000;
+        overflow-y: auto;
+    }
+
+    .col-sm-9 {
+        margin-left: 25%;
+        /* This should match the sidebar width */
+    }
+
+    .active {
+        color: red;
+    }
+</style>

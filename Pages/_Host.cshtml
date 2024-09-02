@@ -43,8 +43,6 @@ The code is an HTML Page with "razor" mark-up *@
 
     @* Next, inside the body, we calls Blazor Router component which is defined by the App.razor as shown below: *@
     <div class="m-1 p-1">
-        <h1>Hello World!</h1>
-        
         @* Call the component we want to render, which is App *@
         <component type="typeof(App)" render-mode="ServerPrerendered" />
     </div>
