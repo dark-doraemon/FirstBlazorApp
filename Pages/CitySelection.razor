@@ -1,0 +1,28 @@
+﻿<div class="form-group p-2 @MyBackground">
+    <label for="city">City</label>
+    <select name="city" class="form-control">
+        <option disabled selected>Select City</option>
+        @foreach (string city in Cities)
+        {
+            <option value="@city" selected="@(city == MyCity)">
+                @city
+            </option>
+        }
+    </select>
+</div>
+
+@code {
+    public string[] Cities = new string[] { "Washington DC", "New Delhi", "Mumbai" };
+
+
+    @* Component Parameter *@
+    @* We can create property for component by using public property of c# with [Parameter] attribute *@
+    @* Things to note here are that the property should be public and can be simple like string, int, float etc or complex like a class type. *@
+    @* These attributes can be given value from outside *@
+    @* chúng ta có thể tạo các thuộc tính cho component bằng cách sử dụng các thuộc tính của code c# có thêm [Parameter] *@
+    [Parameter]
+    public string MyCity { get; set; }
+    
+    [Parameter]
+    public string MyBackground { get; set; }
+}

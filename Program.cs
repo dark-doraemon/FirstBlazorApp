@@ -34,6 +34,14 @@ namespace FirstBlazorApp
             //This will let SignalR which is the part of ASP.NET Core that handles the persistent HTTP request to work properly
             app.MapBlazorHub();
 
+            app.MapGet("/", context =>
+            {
+                context.Response.Redirect("/Iexample");
+                return Task.CompletedTask;
+            });
+
+           
+
             //First the Fallback Route which is _Host.cshtml is called.
             //Fallback Route là route dự phòng, nó có độ ưu tiên thấp, chỉ được gọi khi mà những route khác không match
             app.MapFallbackToPage("/_Host");

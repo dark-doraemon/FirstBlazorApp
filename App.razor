@@ -14,7 +14,7 @@
     @* routeData này sẽ dược dùng để làm dữ liệu cho RouteView *@
     <Found Context="routeData">
         @* The RouteView populates the matching component’s contents (routeData) inside the layout (MainLayout) *@
-        <RouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)" />
+        <RouteView RouteData="@routeData" DefaultLayout="@typeof(RazorComponentLayout)" />
 
         @* The FocusOnNavigate sets the UI focus to the top level h1 element when the navigating takes place from one page to another. *@
         <FocusOnNavigate RouteData="@routeData" Selector="h1" />
