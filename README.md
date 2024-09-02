@@ -191,4 +191,6 @@ See example in -> Pages/ChildComponent.razor - line 32 and TempComponent2.razor
 
 Let us now see how to transfer values from Child Razor Component to Parent Razor Component in Blazor. <br>
 To do this, we will create this feature by creating a custom event `in the child component` and parent component can register a handler method <br>
-This custom event is defined by adding a property whose type is EventCallback<T>. 
+This custom event is defined by adding a property whose type is `EventCallback<T>`. Here “T” defines the value to be returned from child to parent component.
+
+See example in -> Pages/DataFromChildToParent.razor and CitySelection3.razor
