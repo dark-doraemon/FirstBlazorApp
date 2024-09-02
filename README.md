@@ -78,7 +78,7 @@ Chúng ta làm bằng cách tạo ra một property có dạng giống vậy <br
 [Parameter(CaptureUnmatchedValues = true)]
 public Dictionary<string, object> InputAttributes { get; set; }
 ```
-Dictionary là CTDL dạng key value nên ta có thể đặt từ key lấy ra value
+Dictionary là CTDL dạng key value nên ta có thể từ key lấy ra value
 
 See example in -> Pages/City2.razor and CitySelection2.razor 
 
