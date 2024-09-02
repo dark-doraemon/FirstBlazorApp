@@ -133,10 +133,56 @@ Ex – @page "/Catch/{*AllCatch}". So now any number of route parameters will be
     public string AllCatch { get; set; }
 }
 ```
+See example in -> Pages/RouteParameter.razor
 
-> “ChildContent” Property
+>> 10. “ChildContent” Property
 
+We can pass a value to a razor component by `ChildContent property`. This property should be of `RenderFragment type` and `must be named ChildContent by convention`.
+```
+[Parameter]
+public RenderFragment ChildContent { get; set; }
+```
 
+The value to the ChildContent property is provided inside the name tag of the razor component during its call.<br>
+Nghĩa là khi ta sử dụng cú pháp opening and closing tag như vậy <br>
+`<CustomComponent></CustomComponent>` <br>
+Thì ta có thể truyền data cho component ở giữa opening and closing tag
+```
+<CustomComponent>
+     <div>Content</div>
+</CustomComponent>
+```
+Nó giống với children của ReactJS
+
+See example in -> Pages/ChildContent.razor and TempComponent.razor
+
+> Transferring multiple values through “ChildContent” Property
+
+Multiple values can be transferred with the help of ChildContent property. All you have to do is to create `nodes containing values inside them. Add these nodes inside the name of the razor component (where it is called). <br>
+Nghĩa là trong 1 component có thể có nhiều ChildContent property nhưng nếu nếu ta đặt data ở giữa opening and closing tag làm sao nó biết data đó của ChildContent property nào
+Thì ta có 1 cách gọi là tạo node <br>
+VD:
+```
+<TempComponent2>
+    <Description><label>Commercial capital of India</label></Description>
+    <Weather>Moderate and Humid</Weather>
+    <Elevation>14 m</Elevation>
+</TempComponent2>
+```
+Lưu ý Description, Weather, Elevation không phải là các component, ta có thể gọi chúng là các node, mỗi node tương ứng với một ChildContent property <br>
+Trong TempComponent2
+```
+@code {
+    [Parameter]
+    public RenderFragment Description { get; set; }
+ 
+    [Parameter]
+    public RenderFragment Weather { get; set; }
+ 
+    [Parameter]
+    public RenderFragment Elevation { get; set; }
+}
+``
 
 
 
