@@ -16,9 +16,9 @@ See example in code -> Pages/ChainedBind/Parent.razor and Child.razor
 
 Blazor Template Component is used to customize the user interface (UI) by the use of templates which supports reusable codes. You will love the way they work so stay tuned and feel their complete power.
 
-Nghĩa là khi component cha muốn truyền 1 template (1 đoạn mã HTML) cho component con, thì component con được định nghĩa như là một Template Component (nói là Template Component vậy thôi nhưng nó không khác gì component thường), nhưng không phải chúng ta đã học cách truyền template bằng “ChildContent” Property ở bài 3 rồi sao ?
+Nghĩa là khi component con nhận tempate từ component cha, thì component con được định nghĩa như là một Template Component (nói là Template Component vậy thôi nhưng nó không khác gì component thường), nhưng chúng ta đã học cách truyền template bằng “ChildContent” Property ở bài 3 rồi, tại sao bây giờ lại có định nghĩa khác nữa ?
 
-Thì trong Template Component, template mà component cha truyền cho component không phải là template chỉ có HTML tĩnh mà nó đã được áp dụng thêm kiểu dữ liệu 
+Thì trong Template Component, template mà component cha truyền cho component không phải là template tĩnh mà nó đã được áp dụng thêm kiểu dữ liệu, tức là template động
 
 Như ta đã biết khi component cha truyền template cho component con thì component con sẽ lưu template đó trong một thuộc tính có kiểu là <br>
 VD:
@@ -26,7 +26,7 @@ VD:
 [Parameter]
 public RenderFragment Header1 { get; set; }
 ```
-Ta thấy rằng việc lưu như vậy thì nó chỉ lưu được HTML tĩnh, nó chỉ dùng để hiển thị, ta không truyền data vào nó được
+Việc lưu như vậy thì nó chỉ lưu được HTML tĩnh, nó chỉ dùng để hiển thị, ta không truyền data vào nó được
 
 Do đó chúng ta sử dụng <br>
 VD:
@@ -38,20 +38,22 @@ Nghĩa là template lưu trong RowTemplate đã được áp đụng kiểu dữ
 
 Để truyền dữ liệu vào template ta chỉ càn sử dụng câu lệnh `<tr>@RowTemplate(dữ liệu muốn truyền vào)</tr>`, nếu TValue là kiểu int thì ta truyền kiểu int, Person thì truyền dữ liệu kiểu Person
 
-
-
-
-In order to make a razor component as Template Component, we should define in them one or more properties of type RenderFragment or RenderFragment<TValue>. These properties should have [Parameter] attribute. See below code where we have defined 2 such properties.
-
-Để định nghĩa một razor component như là Template Component, chúng ta nên định nghĩa trong chúng 1 hay nhiều thuộc tính kiểu `RenderFragment` hoặc `RenderFragment<TValue>` và những thuộc tính này phải có [Parameter] attribute đi kèm
-VD: 
+Tóm lại 
 ```
 [Parameter]
-public RenderFragment P1 { get; set; }
-
-[Parameter]
-public RenderFragment<TValue> P2 { get; set; }
+public RenderFragment Header1 { get; set; }
 ```
+Sẽ lưu template tĩnh 
+
+Trong khi đó
+```
+[Parameter]
+public RenderFragment<TValue> Header1 { get; set; }
+```
+Sẽ lưu template động
+
+Còn không hiểu nữa thì xem trong code thì sẽ hiểu những gì tui vừa nói
+
 
 See example in code Pages/TemplateComponent/TemplateComponent.razor and TableTemplate.razor
 
