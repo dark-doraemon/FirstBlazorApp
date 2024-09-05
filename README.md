@@ -58,6 +58,13 @@ Còn không hiểu nữa thì xem trong code thì sẽ hiểu những gì tui v�
 See example in code Pages/TemplateComponent/TemplateComponent.razor and TableTemplate.razor
 
 
+>> 2. Cascading Values and Parameters
+
+Blazor provides a convenient way for transferring data from parent to child components in hierarchy by the use of Cascading Values and Parameters. Suppose there are 3 Razor components – One.razor, Two.razor & Three.razor. One.razor is the parent of Two.razor. While Two.razor is the parent of Three.razor.
+
+Nếu One component muốn truyền value cho Three component thì Two component phải tham gia truyền value, điều này không cần thiết vì nó lôi các component không liên quan vào
+
+
 
 
 
