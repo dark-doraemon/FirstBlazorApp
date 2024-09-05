@@ -59,3 +59,7 @@ See example in code Pages/TemplateComponent/TemplateComponent.razor and TableTem
 
 
 
+
+
+
+
