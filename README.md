@@ -64,9 +64,26 @@ Blazor provides a convenient way for transferring data from parent to child comp
 
 Nếu One component muốn truyền value cho Three component thì Two component phải tham gia truyền value, điều này không cần thiết vì nó lôi các component không liên quan vào
 
-Do đó Blazor đã xây dụng sẵn một component tên là `CascadingValue`, component này có một thuộc tính là `Value`, nó nhận sẽ nhận data cần truyền
+Do đó Blazor đã xây dựng sẵn một component tên là `CascadingValue`, component này có một thuộc tính là `Value`, nó sẽ nhận data cần truyền
 
 Cách sử dụng là dùng `CascadingValue` bọc một component, thì các component con, cháu, chắt, ... của component đó sẽ đều nhận được value
+
+See example in code -> ages/CascadingValuesAndParameters/CascadingValuesAndParameters.razor
+
+>> 3. Multiple Cascading Parameters
+
+Nếu chúng ta muốn truyền nhiều giá trị khác nhau cho một component thì rất đơn giản, chỉ cần nest nhiếu `CascadingValue` component lại thôi và đặt tên cho nó
+```
+<CascadingValue Name="Cascade1" Value="@MyMessage">
+      <CascadingValue Name="Cascade2" Value="@MyNumber">
+          <ComponentYouWantToPassvalue/>
+      </CascadingValue>
+</CascadingValue>
+```
+Nếu muốn chon Value thì truyền tên vào thôi
+```
+[CascadingParameter(Name ="Cascade1")]
+```
 
 
 
