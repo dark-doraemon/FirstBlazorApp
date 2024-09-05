@@ -64,6 +64,10 @@ Blazor provides a convenient way for transferring data from parent to child comp
 
 Nếu One component muốn truyền value cho Three component thì Two component phải tham gia truyền value, điều này không cần thiết vì nó lôi các component không liên quan vào
 
+Do đó Blazor đã xây dụng sẵn một component tên là `CascadingValue`, component này có một thuộc tính là `Value`, nó nhận sẽ nhận data cần truyền
+
+Cách sử dụng là dùng `CascadingValue` bọc một component, thì các component con, cháu, chắt, ... của component đó sẽ đều nhận được value
+
 
 
 
