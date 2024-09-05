@@ -88,6 +88,17 @@ Cái này không cần giải thích gì nhiều chỉ cần xem code là hiểu
 
 See example in code -> Pages/CascadingValuesAndParameters/MultiCascading.razor
 
+>> 4. Handling Errors in Blazor
+
+ Blazor Errors can be defined by 2 types, which are:
+
+1. Connection Errors
+2. Application Errors
+
+### Connection Errors
+
+Blazor dự trên kết nối HTTP liên tục giữa Browser và Server, nếu mất kết nối thì nó sẽ hiện lỗi như thế này `Attempting to reconnect to the server: 1 of 8`
+
 
 
 
