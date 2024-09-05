@@ -68,7 +68,7 @@ Do đó Blazor đã xây dựng sẵn một component tên là `CascadingValue`,
 
 Cách sử dụng là dùng `CascadingValue` bọc một component, thì các component con, cháu, chắt, ... của component đó sẽ đều nhận được value
 
-See example in code -> ages/CascadingValuesAndParameters/CascadingValuesAndParameters.razor
+See example in code -> Pages/CascadingValuesAndParameters/CascadingValuesAndParameters.razor
 
 >> 3. Multiple Cascading Parameters
 
@@ -84,6 +84,9 @@ Nếu muốn chon Value thì truyền tên vào thôi
 ```
 [CascadingParameter(Name ="Cascade1")]
 ```
+Cái này không cần giải thích gì nhiều chỉ cần xem code là hiểu 
+
+See example in code -> Pages/CascadingValuesAndParameters/MultiCascading.razor
 
 
 
