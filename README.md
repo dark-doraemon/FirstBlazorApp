@@ -88,7 +88,7 @@ Cái này không cần giải thích gì nhiều chỉ cần xem code là hiểu
 
 See example in code -> Pages/CascadingValuesAndParameters/MultiCascading.razor
 
->> 4. Handling Errors in Blazor
+>> 4. Handling Errors in Blazor (Phần này không quan trọng lắm, chỉ là css lại các thông báo lỗi thôi, có thể bỏ qua khi nào thầy cần thì quay lại)
 
  Blazor Errors can be defined by 2 types, which are:
 
@@ -99,6 +99,14 @@ See example in code -> Pages/CascadingValuesAndParameters/MultiCascading.razor
 
 Blazor dự trên kết nối HTTP liên tục giữa Browser và Server, nếu mất kết nối thì nó sẽ hiện lỗi như thế này `Attempting to reconnect to the server: 1 of 8`
 
+chúng ta có thể custom lại thông báo đó -> xem code tại `Pages/Error/Error.razor` (cái này cũng không quan trọng lắm có thể bỏ qua)
+
+### Application Errors
+
+Khi chương trình bị throw Exception() thì Blazor sẽ kiếm phần tử có id là `blazor-error-ui` và set css của nó có thuộc tính `display: block`, khi đó cần phải reload (F5) lại thì chương trình mới tiếp tục chạy
+
+
+See example in code -> Pages/Error/Error.razor and CustomErrorMessage.razor
 
 
 
