@@ -1,0 +1,39 @@
+﻿@using FirstBlazorApp.Pages.CascadingValuesandParameters.MultiCascade;
+
+@page "/multicascade"
+
+
+@* Nếu chúng ta muốn truyền nhiều value khác nhau thì chỉ cần bọc lại như vậy thôi, nhưng lưu ý là phải đặt tên  *@
+<CascadingValue Name="Cascade1" Value="@MyNumber">
+    <CascadingValue Name="Cascade2" Value="@MyMessage">
+        <CascadingValue Name="Cascade3" Value="@person">
+            @* Mở First.razor để hiểu thêm  *@
+            <First/>
+        </CascadingValue>
+    </CascadingValue>
+</CascadingValue>
+
+<div>
+    <b>
+        See example in code -> Pages/CascadingValuesAndParameters/MultiCascading.razor
+    </b>
+</div>
+
+@code {
+
+    public int MyNumber = 99;
+    public string MyMessage = "Hello";
+    public Person person = new Person
+    {
+        Name = "Join Weak",
+        Age = 40
+    };
+
+    public class Person {
+        public string Name {get ;set;}
+        public int Age {get ;set;}
+
+    }    
+}
+
+

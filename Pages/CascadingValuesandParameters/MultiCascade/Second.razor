@@ -1,0 +1,13 @@
+﻿<h3>Second</h3>
+<div>
+    Transferred value = @TransferredValue
+    @* Mở Third.razor để hiểu thêm  *@
+    <Third></Third>
+</div>
+@code {
+
+    //Vì có nhiều value khác nhau nên nếu muốn chọn đúng value phải truyền tên vào
+    //Ở đây lấy value có Name là Cascade2
+    [CascadingParameter(Name = "Cascade2")]
+    public string TransferredValue { get; set; }
+}

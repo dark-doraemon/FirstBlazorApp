@@ -1,0 +1,37 @@
+﻿<h3 class="bg-info text-white">@MyPhrase</h3>
+
+@* Thís button will call UpdatePhrase and UpdatePhrase will invoke MyPhraseChanged *@
+<button class="btn btn-warning" @onclick="UpdatePhrase">Update Phrase</button>
+<span>-> Nút này sẽ cập nhật value từ component con khi đó value của component cha cũng thay đổi theo </span>
+
+@code {
+
+
+    [Parameter]
+    public string MyPhrase { get; set; }
+
+
+    @* Để tạo 2 way binding, chúng ta định nghĩa một callback method có kiểu là EventCallback<T>, T là kiểu dữ liệu của MyPhrase *@
+    @* Tên của callback có tên giống với tên thuộc tính muốn liên kết 2 chiều + Changed = MyPhraseChanged *@
+    @* Đây là quy ước, phải đặt tên giống vậy thì 2 way binding mới hoạt động  *@
+    @* callback này dùng đê từ component con cập nhật giá trị cho component cha *@
+    [Parameter]
+    public EventCallback<string> MyPhraseChanged { get; set; }
+
+    private async Task UpdatePhrase()
+    {
+
+        if (MyPhrase == "Bill Goldberg is stronger than Brock Lesnar")
+        {
+            @* Khi MyPhraseChanged invoke thì MyPhrase sẽ thay đổi value *@
+            @* Khi value của MyPhrase thay đổi thì value của thuộc tính component cha sẽ thay đổi theo *@
+            @* Vì thuộc tính của component cha đẫ liên kết với thuộc tính của component con *@
+            await MyPhraseChanged.InvokeAsync("Brock Lesnar is stronger than Bill Goldberg");
+        }
+        else
+        {
+            await MyPhraseChanged.InvokeAsync("Bill Goldberg is stronger than Brock Lesnar");
+        }
+
+    }
+}

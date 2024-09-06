@@ -1,0 +1,39 @@
+﻿@page "/cascading"
+@using FirstBlazorApp.Pages.CascadingValuesandParameters.OneTwoTree
+@using FirstBlazorApp.Pages.CascadingValuesandParameters.OneTwoTree2
+<b>
+    Không áp dụng Cascading Values and Parameters
+</b>
+
+<One/>
+
+<div>
+    Xem code để thấy rằng nó rối như thế nào <b>-> Pages/CascadingValuesAndParameters/OneTwoThree/One.razor and Two.razor and Three.razor</b>
+</div>
+<div>
+    Ta thấy rằng dù nó hoạt động nhưng nếu sử dụng Cascading Values and Parameters thì nó sẽ hay hơn
+</div>
+
+
+<div>
+    <b>
+        Có áp dụng Cascading Values and Parameters
+    </b>
+</div>
+
+<div class="p-5 bg-success">
+    @* Mở code của One2 đễ xem *@
+    <One2/>
+</div>
+<div>
+    Ta thấy rằng không cần Two component làm trung gian nữa mà One component có thể truyền value cho Three component
+</div>
+<div>
+   <b>-> Pages/CascadingValuesAndParameters/OneTwoThree2/One1.razor and Two2.razor and Three2.razor</b>
+</div>
+@code 
+{
+    public string MyMessage = "Hello";
+}
+
+

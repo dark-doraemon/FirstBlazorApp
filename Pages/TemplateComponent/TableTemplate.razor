@@ -1,0 +1,43 @@
+﻿@* Lưu ý "RowType" là kiểu dữ liệu được truyền từ component cha,
+chúng ta có thể đặt tên theo ý muốn của chúng ta (RowType1,RowTyp2,...) *@
+@* ở đây component cha đã truyền kiểu dữ liệu là Person nên RowType có kiểu dữ liệu là Person *@
+@typeparam RowType 
+
+<table class="table table-sm table-bordered table-striped">
+    @if (Header1 != null)
+    {
+        <thead>@Header1</thead>
+    }
+    <tbody>
+        @* Điều quan trong nhất là razor expression – @RowTemplate(item) *@
+        @* RowTemplate lưu một template được truyền từ component cha, và template này đã được áp dụng kiểu dữ liệu *@
+        @* cứ hiểu nó như là một hàm, ta chỉ cần truyền gía trị vào rồi nó trả về kết quá là 1 template được fill giá trị *@
+        @foreach (RowType item in RowData)
+        {
+            //Truyền value vào template
+            <tr>@RowTemplate(item)</tr>
+        }
+    </tbody>
+</table>
+ 
+@code {
+
+    @* Ta phải định nghĩa các thuộc tính RenderFragment hoặc RenderFragment<TValue> để tạo Template Component *@
+    [Parameter]
+    public RenderFragment Header1 { get; set; }
+    
+
+    //kiểu dữ liệu RowType được lấy từ định nghĩa ở trên
+    //nhiệm vụ của thuộc tính này là lưu template được truyền từ component cha 
+    //tuy nhiên template này không chỉ có mỗi html tĩnh mà nó đã được áp dụng kiểu dữ liệu 
+    //do cho ta chỉ cần truyền value vào template
+    [Parameter]
+    public RenderFragment<RowType> RowTemplate { get; set; }
+
+        
+    //kiểu dữ liệu RowType được lấy từ định nghĩa ở trên
+    //RowData chứa values từ component cha
+    //trong tường hợp này RowType có kiểu là Person => IEnumerable<RowType> RowData = IEnumerable<Person> RowData
+    [Parameter]
+    public IEnumerable<RowType> RowData { get; set; }
+}

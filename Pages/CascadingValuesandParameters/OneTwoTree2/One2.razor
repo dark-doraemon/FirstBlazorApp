@@ -1,0 +1,19 @@
+﻿<div class="p-5 bg-success">
+    <div>
+        One component
+    </div>
+
+    <h3 class="text-white">@MyMessage</h3>
+
+
+    @* Sử dụng CascadingValue để bọc component lại *@
+    @* Khi đó mọi component con, cháu của component Two2 sẽ đề nhận được value thông qua thuộc tính "Value" của CascadingValue  *@
+    <CascadingValue Value="@MyMessage">
+        <Two2></Two2> 
+        @* -> Ta thấy rằng Two2 không cần nhận giá trị để làm trung gian nữa *@
+    </CascadingValue>
+</div>
+
+@code {
+    public string MyMessage = "Hello";
+}

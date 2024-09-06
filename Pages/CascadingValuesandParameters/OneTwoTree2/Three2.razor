@@ -1,0 +1,14 @@
+﻿<div class="p-5 bg-warning">
+    <div>
+        Three component
+    </div>
+    <h3 class="text-white">@TransferredValue</h3>
+</div>
+ 
+@code {
+
+    //nếu muốn nhận value từ component CascadingValue thì thêm attribute này-[CascadingParameter] 
+    //Và kiểu dữ liệu của thuộc tính phải cũng kiểu với thuộc tính "Value" của CascadingValue
+    [CascadingParameter] 
+    public string TransferredValue { get; set; }
+}

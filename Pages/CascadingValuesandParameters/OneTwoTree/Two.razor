@@ -1,0 +1,12 @@
+﻿<div class="p-5 bg-secondary">
+    <div>
+        Two component
+    </div>
+    <h3 class="text-white">@MyMessage</h3>
+    <Three MyMessage="@MyMessage"></Three>
+</div>
+ 
+@code {
+    [Parameter]
+    public string MyMessage { get; set; }
+}

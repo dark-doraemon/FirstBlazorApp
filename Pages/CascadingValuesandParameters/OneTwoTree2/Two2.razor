@@ -1,0 +1,14 @@
+﻿<div class="p-5 bg-secondary">
+    <div>
+        Two component
+    </div>
+    <h3 class="text-white">@TransferredValue</h3>
+
+    @* không cần truyền value cho component Three2 nữa *@
+    <Three2></Three2>
+</div>
+ 
+@code {
+    [Parameter]
+    public string TransferredValue { get; set; }
+}

@@ -1,0 +1,77 @@
+﻿<style>
+    #components-reconnect-modal {           
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 100;
+        opacity: 0.8;
+    }
+ 
+    .components-reconnect-hide, .components-reconnect-show > .failed, .components-reconnect-show > .rejected, .components-reconnect-failed> .reconnect, .components-reconnect-failed > .rejected, .components-reconnect-rejected > .reconnect, .components-reconnect-rejected > .failed {
+        display: none;
+    }
+ 
+    .components-reconnect-show, .components-reconnect-show > .reconnect, .components-reconnect-failed > .failed, .components-reconnect-rejected> .rejected {
+        display: block;
+    }
+</style>
+
+<div id="components-reconnect-modal" class="h3 bg-danger text-white text-center my-1 p-1 components-reconnect-hide">
+    Blazor Connection Lost
+    <div class="reconnect">
+        Trying to reconnect...
+    </div>
+    <div class="failed">
+        Reconnection Failed.
+        <button class="btn btn-light" onclick="window.Blazor.reconnect()">
+            Reconnect
+        </button>
+    </div>
+    <div class="rejected">
+        Reconnection Rejected.
+        <button class="btn btn-light" onclick="location.reload()">
+            Reload
+        </button>
+    </div>
+</div>
+
+
+@* Nguyên lí hoạt động là khi mất kết nối Blazor sẽ kiếm thuộc tính là id là components-reconnect-modal và hiện lên *@
+@* components-reconnect-show      -> class này được thêm vào khi blazor cố gắng reconnect lại *@
+@* components-reconnect-hide      -> class này được thêm vào khi có lại kết nối *@
+@* components-reconnect-failed    -> class này được thêm vào khi kết nối failed *@
+@* components-reconnect-rejected  -> class này được thêm vào khi có lại kết nối,nhưng trạng thái kết nối của người dùng bị mất*@
+
+
+<h1>
+    Connection Errors
+</h1>
+<h3 class="bg-info text-white">Blazor Errors</h3>
+<div>
+    Now shut down app, and you will see custom error message
+</div>
+
+
+<h1>
+    Application Errors
+</h1>
+
+<div id="blazor-error-ui" class="text-center bg-warning text-primary p-1" style="display:none">
+    An error has occurred. Kindly Reload. <br>
+    Khi đó chương trình sẽ kiếm element có id là blazor-error-ui để hiện lên
+    <button class="btn btn-sm btn-primary" onclick="location.reload()">
+        Reload
+    </button>
+</div>
+
+<button class="btn btn-danger" @onclick="@(() => throw new Exception())">
+    Error
+</button>
+<span>
+    -> Nút này sẽ giả lập chương trình throw Exception()
+</span>
+@code {
+ 
+}

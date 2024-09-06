@@ -1,0 +1,47 @@
+﻿@page "/parent"
+
+<div>
+    <b>
+        Phần này thuộc về component con
+    </b>
+</div>
+
+
+@* MyPhrase là thuộc tính của Child component *@
+@* Ta thêm @bind- ở phía trước thuộc tính này để thành @bind-MyPhrase *@
+@* Điều này sẽ liên kết thuộc tính của Child component với thuộc tính của Parent component *@
+@* Myphrase(của component con) liên kết với wwe(của component cha) *@
+@* Value sẽ truyền xuống cho component con, nếu component con update value thì component cha sẽ nhận value mới *@
+@* Mở code của Child compnent ra để xem có gì  *@
+<Child @bind-MyPhrase="wwe"/>
+
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+<div>
+    <b>
+        Phần này là value của thuộc tính của component cha
+    </b>
+</div>
+<div>
+    @wwe
+</div>
+
+<br/>
+<br/>
+<br/>
+<br/>
+<div>
+    <b>
+        Open code in Pages/ChainedBind/Parent.razor and Child.razor
+    </b>
+</div>
+
+
+@code {
+    private string wwe = "Bill Goldberg is stronger than Brock Lesnar";
+}
