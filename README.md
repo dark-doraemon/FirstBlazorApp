@@ -10,7 +10,7 @@ Chained Bind là một custom two-way data binding giữa component cha và con.
 1. Luồng value được truyền theo hệ thống cấp bật xuống, từ component cha -> component con
 2. Thông báo thay đổi sẽ truyền theo hệ thông cấp bật lên, từ component con -> component cha
 
-See example in code -> Pages/ChainedBind/Parent.razor and Child.razor
+See example  -> Pages/ChainedBind/Parent.razor and Child.razor
 
 >> 2. Blazor Template Components – “Code Reusability”
 
@@ -55,7 +55,7 @@ Sẽ lưu template động
 Còn không hiểu nữa thì xem trong code thì sẽ hiểu những gì tui vừa nói
 
 
-See example in code Pages/TemplateComponent/TemplateComponent.razor and TableTemplate.razor
+See example  Pages/TemplateComponent/TemplateComponent.razor and TableTemplate.razor
 
 
 >> 2. Cascading Values and Parameters
@@ -68,7 +68,7 @@ Do đó Blazor đã xây dựng sẵn một component tên là `CascadingValue`,
 
 Cách sử dụng là dùng `CascadingValue` bọc một component, thì các component con, cháu, chắt, ... của component đó sẽ đều nhận được value
 
-See example in code -> Pages/CascadingValuesAndParameters/CascadingValuesAndParameters.razor
+See example  -> Pages/CascadingValuesAndParameters/CascadingValuesAndParameters.razor
 
 >> 3. Multiple Cascading Parameters
 
@@ -86,7 +86,7 @@ Nếu muốn chon Value thì truyền tên vào thôi
 ```
 Cái này không cần giải thích gì nhiều chỉ cần xem code là hiểu 
 
-See example in code -> Pages/CascadingValuesAndParameters/MultiCascading.razor
+See example  -> Pages/CascadingValuesAndParameters/MultiCascading.razor
 
 >> 4. Handling Errors in Blazor (Phần này không quan trọng lắm, chỉ là css lại các thông báo lỗi thôi, có thể bỏ qua khi nào thầy cần thì quay lại)
 
@@ -106,7 +106,7 @@ chúng ta có thể custom lại thông báo đó -> xem code tại `Pages/Error
 Khi chương trình bị throw Exception() thì Blazor sẽ kiếm phần tử có id là `blazor-error-ui` và set css của nó có thuộc tính `display: block`, khi đó cần phải reload (F5) lại thì chương trình mới tiếp tục chạy
 
 
-See example in code -> Pages/Error/Error.razor and CustomErrorMessage.razor
+See example  -> Pages/Error/Error.razor and CustomErrorMessage.razor
 
 
 
