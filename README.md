@@ -20,7 +20,7 @@ Như đã biết trong razor component phần HTML dành cho UI và c# code nằ
 Khi blazor compile razor component thì razor component sẽ chuyển thành partial class (1 class cho ui và 1 class cho logic) và tên của class được tạo ra cùng tên với tên file của component (partial class nghĩ là 1 class có thể code ở nhiều file khác nhau) <br>
 Do đó ta có thể sử dụng cơ chế này của blazor để tách ra thành 2 file riêng biệt với điều kiện file .razor.cs phải có partial (vd: public partial class Count {})
 
-See example in code -> Pages/Count/Count.razor and Count.razor.cs
+See example  -> Pages/Count/Count.razor and Count.razor.cs
 
 >> 3. How Blazor renders Razor Components
 
@@ -35,7 +35,7 @@ Lý so server thay đổi thì browser thay đổi theo là blazor server sử d
 
 Two or more Razor Components can be combined together to form more complex features. A parent-child relationship between components is a perfect example of this scenario.
 
-See example in code -> Pages/City.razor
+See example  -> Pages/City.razor
 
 >> 5. Calling Components from Razor Pages or MVC views
 
@@ -52,7 +52,7 @@ Component Tag Helper ->  `<component type="typeof(NameOfComponent)" render-mode=
 > Trong file _Host.cshtml là một razor page (giống với file index.html trong các front-end framework khác) <br>
 > Và _Host.cshtml gọi component App.razor bằng `<component type="typeof(App)" render-mode="ServerPrerendered" />` (giống với gọi App.jsx trong ReactJS) <br>
 
-See example in code -> Pages/Hello.cshtml
+See example  -> Pages/Hello.cshtml
 
 >> 6. Component Parameters – Transferring values from Parent to Child component
 
